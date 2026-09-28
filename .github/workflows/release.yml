@@ -1,0 +1,26 @@
+name: Publish catalog release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate source packs
+        shell: pwsh
+        run: ./scripts/validate-source-packs.ps1
+      - name: Validate release assets
+        shell: pwsh
+        run: ./scripts/validate-release-assets.ps1
+      - name: Publish capmods
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create $env:GITHUB_REF_NAME ./release-assets/*.capmod --generate-notes --verify-tag
