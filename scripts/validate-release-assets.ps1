@@ -12,6 +12,15 @@ Add-Type -AssemblyName System.IO.Compression
 foreach ($pack in $catalog.packs) {
     foreach ($version in $pack.versions) {
         $downloadUri = [Uri]$version.download
+		$repositoryUri = [Uri]$pack.sourceRepository
+		$repositoryParts = $repositoryUri.AbsolutePath.Trim('/').Split('/')
+		$downloadParts = $downloadUri.AbsolutePath.Trim('/').Split('/')
+		if ($downloadUri.Scheme -ne 'https' -or $downloadUri.Host -ne 'raw.githubusercontent.com' -or
+			$downloadParts.Length -ne 5 -or $downloadParts[0] -ne $repositoryParts[0] -or
+			$downloadParts[1] -ne $repositoryParts[1] -or $downloadParts[2] -ne 'main' -or
+			$downloadParts[3] -ne 'release-assets') {
+			throw "Catalog download is not a pack-local raw release asset: $($version.download)"
+		}
         $fileName = [Uri]::UnescapeDataString($downloadUri.Segments[-1])
         $archivePath = Join-Path $assetRoot $fileName
         if (-not (Test-Path -LiteralPath $archivePath -PathType Leaf)) {
