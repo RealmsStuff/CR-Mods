@@ -60,6 +60,22 @@
         "sha256": "cc6b076a4baf5aa8738baf8bd108a9db346f7739a1af9eae4d0ff34f780958d3", "sizeBytes": 2044,
         "dependencies": [{"id": "core", "version": ">=0.1.0"}, {"id": "legacy.c4c", "version": ">=1.0.0"}], "conflicts": []
       }]
+    },
+    {
+      "id": "legacy.captivity-multi-tool",
+      "displayName": "Captivity Multi-Tool",
+      "authors": ["Original author unknown", "Captivity Reloaded port"],
+      "summary": "Faithful C4C-derived Multi-Tool conversion with guarded player, weapon, enemy, wave, and stage controls.",
+      "sourceRepository": "https://github.com/RealmsStuff/CR-Mods",
+      "previewImages": ["https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/packs/legacy.captivity-multi-tool/preview.png"],
+      "tags": ["game-mode", "developer-tools", "legacy-port"],
+      "contentWarnings": ["Adult sexual content", "Cheat and save-unlock controls"],
+      "versions": [{
+        "version": "1.0.0", "modApiVersion": 1, "gameVersion": ">=2.1.2",
+        "download": "https://github.com/RealmsStuff/CR-Mods/releases/download/v1.0.0/legacy-captivity-multi-tool.capmod",
+        "sha256": "85a0dc3ab6045b99993778b42d484387d52791e8a57fbbf320d4c61463010284", "sizeBytes": 27115,
+        "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []
+      }]
     }
   ]
 }
