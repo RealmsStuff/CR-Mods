@@ -1,15 +1,16 @@
-name: Publish catalog release
+name: Validate mod catalog
 
 on:
   push:
-    tags:
-      - "v*"
+    branches:
+      - main
+  pull_request:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  publish:
+  validate:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,8 +20,3 @@ jobs:
       - name: Validate release assets
         shell: pwsh
         run: ./scripts/validate-release-assets.ps1
-      - name: Publish capmods
-        shell: pwsh
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh release create $env:GITHUB_REF_NAME ./release-assets/*.capmod --generate-notes --verify-tag
