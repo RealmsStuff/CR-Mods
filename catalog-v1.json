@@ -115,9 +115,9 @@
     },
     {
       "id": "legacy.captivity-sfw", "displayName": "Captivity SFW", "authors": ["Legacy mod author"],
-      "summary": "Faithful data-only conversion of the legacy SFW mod. It hides explicit anatomy on every affected Core enemy without changing gameplay.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods",
+      "summary": "Faithful data-only conversion of the legacy SFW mod. It hides explicit anatomy and activates the Captivity No Rape safety rules while enabled.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods",
       "tags": ["visual", "enemy-overhaul", "legacy-port"], "contentWarnings": ["Adult sexual content"],
-      "versions": [{"version": "1.0.0", "modApiVersion": 1, "gameVersion": ">=2.1.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/legacy-captivity-sfw.capmod", "sha256": "130f0f8e07bf7c8728b42518ee77cc9a79ea9a043d0fc4a8bf4c3a909f6b424c", "sizeBytes": 9086, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []}]
+      "versions": [{"version": "1.0.1", "modApiVersion": 1, "gameVersion": ">=2.1.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/legacy-captivity-sfw-1.0.1.capmod", "sha256": "aa755ec1b3496fbf25fc8a2a463a9f5fee7660b846fc93bc0b545f3d170d6259", "sizeBytes": 9125, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []}]
     },
     {
       "id": "legacy.cod-perk-machine", "displayName": "CoD Perk Machine", "authors": ["Legacy mod conversion"],
