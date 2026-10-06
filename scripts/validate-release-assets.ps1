@@ -10,6 +10,36 @@ $validated = 0
 
 Add-Type -AssemblyName System.IO.Compression
 
+function Test-WindowsDeviceName {
+	param([Parameter(Mandatory)] [string] $Part)
+	$stem = [IO.Path]::GetFileNameWithoutExtension($Part).ToUpperInvariant()
+	return $stem -in @('CON', 'PRN', 'AUX', 'NUL', 'COM1', 'COM2', 'COM3', 'COM4', 'COM5',
+		'COM6', 'COM7', 'COM8', 'COM9', 'LPT1', 'LPT2', 'LPT3', 'LPT4', 'LPT5', 'LPT6', 'LPT7', 'LPT8', 'LPT9')
+}
+
+function Get-ComparableHash {
+	param(
+		[Parameter(Mandatory)] [IO.Stream] $Stream,
+		[Parameter(Mandatory)] [bool] $NormalizeLineEndings
+	)
+	$sha = [Security.Cryptography.SHA256]::Create()
+	try {
+		if (-not $NormalizeLineEndings) {
+			return [BitConverter]::ToString($sha.ComputeHash($Stream)).Replace('-', '')
+		}
+		$copy = [IO.MemoryStream]::new()
+		try { $Stream.CopyTo($copy); $bytes = $copy.ToArray() }
+		finally { $copy.Dispose() }
+		$normalized = [Collections.Generic.List[byte]]::new($bytes.Length)
+		for ($index = 0; $index -lt $bytes.Length; $index++) {
+			if ($bytes[$index] -eq 13 -and $index + 1 -lt $bytes.Length -and $bytes[$index + 1] -eq 10) { continue }
+			$normalized.Add($bytes[$index])
+		}
+		return [BitConverter]::ToString($sha.ComputeHash($normalized.ToArray())).Replace('-', '')
+	}
+	finally { $sha.Dispose() }
+}
+
 foreach ($pack in $catalog.packs) {
     foreach ($version in $pack.versions) {
         $downloadUri = [Uri]$version.download
@@ -71,9 +101,27 @@ foreach ($pack in $catalog.packs) {
                     $sourceFiles[$relative] = $sourceFile.FullName
                 }
                 $archiveFiles = @{}
+				$rawArchivePaths = [System.Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
                 foreach ($entry in $archive.Entries) {
+					$rawPath = $entry.FullName
+					$parts = @($rawPath.TrimEnd('/').Split('/'))
+					$isUnsafe = [string]::IsNullOrWhiteSpace($rawPath) -or $rawPath.StartsWith('/') -or
+						$rawPath.Contains('\') -or $rawPath.Contains(':') -or
+						$rawPath.IndexOfAny([char[]]@('<', '>', '"', '|', '?', '*')) -ge 0 -or
+						@($parts | Where-Object {
+							[string]::IsNullOrEmpty($_) -or $_ -eq '.' -or $_ -eq '..' -or
+							$_.EndsWith('.') -or $_.EndsWith(' ') -or (Test-WindowsDeviceName $_)
+						}).Count -gt 0
+					if ($isUnsafe -or -not $rawArchivePaths.Add($rawPath.TrimEnd('/'))) {
+						throw "$fileName contains an unsafe or duplicate path: $rawPath"
+					}
+					$unixType = ($entry.ExternalAttributes -shr 16) -band 0xf000
+					if (($unixType -ne 0 -and $unixType -ne 0x8000 -and $unixType -ne 0x4000) -or
+						($entry.ExternalAttributes -band [int][IO.FileAttributes]::ReparsePoint) -ne 0) {
+						throw "$fileName contains a link or special file: $rawPath"
+					}
                     if ($entry.FullName.EndsWith('/')) { continue }
-                    $entryPath = $entry.FullName.Replace('\', '/')
+					$entryPath = $entry.FullName
                     if ($archiveFiles.ContainsKey($entryPath)) {
                         throw "$fileName contains duplicate entry $entryPath."
                     }
@@ -87,13 +135,13 @@ foreach ($pack in $catalog.packs) {
                     throw "$fileName differs from packs/$($pack.id) (missing: $($missing -join ', '); extra: $($extra -join ', '))."
                 }
                 foreach ($relative in $sourceNames) {
-                    $sourceDigest = (Get-FileHash -LiteralPath $sourceFiles[$relative] -Algorithm SHA256).Hash
+					$extension = [IO.Path]::GetExtension($relative).ToLowerInvariant()
+					$normalizeLineEndings = $extension -eq '.json' -or $extension -eq '.md'
+					$sourceStream = [IO.File]::OpenRead($sourceFiles[$relative])
+					try { $sourceDigest = Get-ComparableHash $sourceStream $normalizeLineEndings }
+					finally { $sourceStream.Dispose() }
                     $entryStream = $archiveFiles[$relative].Open()
-                    try {
-                        $sha = [System.Security.Cryptography.SHA256]::Create()
-                        try { $archiveDigest = [BitConverter]::ToString($sha.ComputeHash($entryStream)).Replace('-', '') }
-                        finally { $sha.Dispose() }
-                    }
+					try { $archiveDigest = Get-ComparableHash $entryStream $normalizeLineEndings }
                     finally { $entryStream.Dispose() }
                     if ($sourceDigest -cne $archiveDigest) {
                         throw "$fileName entry $relative does not match packs/$($pack.id)."
