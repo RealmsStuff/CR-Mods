@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "legacy.captivity-sfw",
   "displayName": "Captivity SFW",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "modApiVersion": 1,
   "authors": ["Legacy mod author"],
-  "description": "Faithful data-only conversion of the legacy SFW mod. It hides the explicit anatomy on every affected Core enemy without changing gameplay.",
+  "description": "Faithful data-only conversion of the legacy SFW mod. It hides explicit anatomy and activates the Captivity No Rape safety rules while enabled.",
   "dependencies": [
     {
       "id": "core",

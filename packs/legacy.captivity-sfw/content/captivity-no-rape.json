@@ -4,6 +4,7 @@
   "id": "legacy.captivity-sfw:rule/captivity-no-rape",
   "displayName": "Captivity No Rape",
   "description": "The legacy CNR rules: enemies cannot start finishers or tear clothing, zero health consumes a heart instead, and player health/stamina capacity is tripled.",
+  "activation": "pack",
   "modules": [
     {
       "type": "playerRules",
