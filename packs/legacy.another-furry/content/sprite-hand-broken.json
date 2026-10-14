@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-hand-broken",
+  "target": "core:sprite/hand-broken",
+  "replacements": {
+    "image": "assets/legacy/2496-HandBroken.png"
+  }
+}

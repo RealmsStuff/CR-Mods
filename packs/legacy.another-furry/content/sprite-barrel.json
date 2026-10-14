@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-barrel",
+  "target": "core:sprite/barrel",
+  "replacements": {
+    "image": "assets/legacy/2143-barrel.png"
+  }
+}

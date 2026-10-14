@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-drawing-jenny",
+    "target":  "core:sprite/drawing-jenny",
+    "replacements":  {
+                         "image":  "assets/legacy/2503-DrawingJenny.png"
+                     }
+}

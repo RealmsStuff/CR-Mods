@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-floor-3",
+    "target":  "core:sprite/floor-3",
+    "replacements":  {
+                         "image":  "assets/legacy/2530-floor.png"
+                     }
+}

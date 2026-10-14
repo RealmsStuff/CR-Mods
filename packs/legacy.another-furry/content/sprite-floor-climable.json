@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-floor-climable",
+    "target":  "core:sprite/floor-climable",
+    "replacements":  {
+                         "image":  "assets/legacy/2664-floorClimable.png"
+                     }
+}

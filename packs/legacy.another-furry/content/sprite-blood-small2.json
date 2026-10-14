@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-blood-small2",
+  "target": "core:sprite/blood-small2",
+  "replacements": {
+    "image": "assets/legacy/2834-bloodSmall2.png"
+  }
+}

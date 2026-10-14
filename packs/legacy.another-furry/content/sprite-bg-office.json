@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-bg-office",
+    "target":  "core:sprite/bg-office",
+    "replacements":  {
+                         "image":  "assets/legacy/3015-bgOffice.png"
+                     }
+}

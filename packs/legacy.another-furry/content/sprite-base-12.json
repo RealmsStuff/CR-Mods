@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-base-12",
+  "target": "core:sprite/base-12",
+  "replacements": {
+    "image": "assets/legacy/2717-base_12.png"
+  }
+}

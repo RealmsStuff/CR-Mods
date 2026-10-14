@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-hips-7",
+  "target": "core:sprite/hips-7",
+  "replacements": {
+    "image": "assets/legacy/2892-Hips_7.png"
+  }
+}

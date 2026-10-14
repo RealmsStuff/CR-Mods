@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-hair-blonde-bowl-red-line",
+  "target": "core:clothing/hair-blonde-bowl-red-line",
+  "replacements": {
+    "icon": "assets/legacy/3011-HairBlondeBowlRedLine.png",
+    "piece/hair": "assets/legacy/3011-HairBlondeBowlRedLine.png"
+  }
+}

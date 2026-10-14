@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-slide-1",
+  "target": "core:sprite/slide-1",
+  "replacements": {
+    "image": "assets/legacy/3010-slide_1.png"
+  }
+}

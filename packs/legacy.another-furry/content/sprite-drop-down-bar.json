@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-drop-down-bar",
+  "target": "core:sprite/drop-down-bar",
+  "replacements": {
+    "image": "assets/legacy/2565-DropDownBar.png"
+  }
+}

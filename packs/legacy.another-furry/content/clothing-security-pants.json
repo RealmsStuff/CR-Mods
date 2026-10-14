@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-security-pants",
+  "target": "core:clothing/security-pants",
+  "replacements": {
+    "piece/butt": "assets/legacy/2316-SecurityButt.png",
+    "piece/hips": "assets/legacy/2282-SecurityHips.png",
+    "piece/l-leg-lower": "assets/legacy/2794-SecurityLegLower.png",
+    "piece/l-leg-upper": "assets/legacy/2964-SecurityLegUpper.png",
+    "piece/r-leg-lower": "assets/legacy/2794-SecurityLegLower.png",
+    "piece/r-leg-upper": "assets/legacy/2964-SecurityLegUpper.png",
+    "piece/spine": "assets/legacy/2048-SecurityBelt.png"
+  }
+}

@@ -186,6 +186,12 @@
       "versions": [{"version": "1.0.0", "modApiVersion": 1, "gameVersion": ">=2.1.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/legacy-tweaked-fer.capmod", "sha256": "45910a9d0165f3712a9c014ecdc106385b0593ca13799ae81390b5e1bbf07a2d", "sizeBytes": 195236, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": ["legacy.captivity-sfw", "legacy.smaller-breast", "legacy.smaller-breast-and-butt"]}]
     },
     {
+      "id": "legacy.another-furry", "displayName": "China Furry Mod", "authors": ["ZHQ"],
+      "summary": "Data-only conversion of ZHQ's broad character, clothing, environment, prop, and stage-art overhaul.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods",
+      "tags": ["visual", "player", "environment", "legacy-port"], "contentWarnings": ["Adult sexual content"],
+      "versions": [{"version": "0.1.2", "modApiVersion": 1, "gameVersion": ">=2.2.1", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/legacy-another-furry-0.1.2.capmod", "sha256": "adb881cf6681c8d6d4810752ac0e6cf746f5fdca33c64199e02f17a1a6518e06", "sizeBytes": 294092, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": ["draco66electro.prey-bunny-girls", "dudleytheschemer.shaded-girl", "legacy.cry-when-raped", "legacy.futanari-small-tweaks", "legacy.futazombies", "legacy.small-tweaks", "legacy.smaller-breast", "legacy.smaller-breast-and-butt", "legacy.smiling-blush-small-tweaks", "legacy.tweaked-fer", "mousai.femboy-refitted-shirt"]}]
+    },
+    {
       "id": "mousai.femboy-refitted-shirt", "displayName": "Femboy Clothing Refit", "authors": ["Mousai"],
       "summary": "Faithful data-only conversion of the legacy Femboy edition's custom body and refitted Core clothing.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods",
       "tags": ["visual", "clothing", "legacy-port"], "contentWarnings": ["Adult sexual content"],

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-penis-mid-0",
+  "target": "core:sprite/penis-mid-0",
+  "replacements": {
+    "image": "assets/legacy/3083-PenisMid_0.png"
+  }
+}

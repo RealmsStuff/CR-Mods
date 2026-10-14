@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-platform-climable-left",
+    "target":  "core:sprite/platform-climable-left",
+    "replacements":  {
+                         "image":  "assets/legacy/2098-platformClimableLeft.png"
+                     }
+}

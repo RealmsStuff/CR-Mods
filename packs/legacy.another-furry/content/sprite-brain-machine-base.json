@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-brain-machine-base",
+  "target": "core:sprite/brain-machine-base",
+  "replacements": {
+    "image": "assets/legacy/2285-brainMachineBase.png"
+  }
+}

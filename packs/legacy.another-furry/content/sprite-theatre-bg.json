@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-theatre-bg",
+    "target":  "core:sprite/theatre-bg",
+    "replacements":  {
+                         "image":  "assets/legacy/2227-TheatreBg.png"
+                     }
+}

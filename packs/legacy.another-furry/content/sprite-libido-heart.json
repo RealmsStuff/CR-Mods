@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-libido-heart",
+  "target": "core:sprite/libido-heart",
+  "replacements": {
+    "image": "assets/legacy/2135-LibidoHeart.png"
+  }
+}

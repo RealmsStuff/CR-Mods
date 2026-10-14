@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-heart-healthy",
+  "target": "core:sprite/heart-healthy",
+  "replacements": {
+    "image": "assets/legacy/2976-HeartHealthy.png"
+  }
+}

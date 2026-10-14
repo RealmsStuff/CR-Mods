@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-ammo-box",
+  "target": "core:sprite/ammo-box",
+  "replacements": {
+    "image": "assets/legacy/2029-AmmoBox.png"
+  }
+}

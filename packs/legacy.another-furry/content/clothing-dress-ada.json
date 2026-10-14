@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-dress-ada",
+  "target": "core:clothing/dress-ada",
+  "replacements": {
+    "icon": "assets/legacy/2100-AdaChest.png",
+    "piece/butt": "assets/legacy/2318-AdaButt.png",
+    "piece/chest": "assets/legacy/2100-AdaChest.png",
+    "piece/hips": "assets/legacy/2111-AdaHips.png",
+    "piece/l-leg-upper": "assets/legacy/2626-AdaLLegUpper.png",
+    "piece/r-leg-upper": "assets/legacy/2741-AdaRLegUpper.png",
+    "piece/spine": "assets/legacy/2044-AdaSpine.png"
+  }
+}

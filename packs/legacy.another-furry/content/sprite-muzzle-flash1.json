@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-muzzle-flash1",
+  "target": "core:sprite/muzzle-flash1",
+  "replacements": {
+    "image": "assets/legacy/2830-MuzzleFlash1.png"
+  }
+}

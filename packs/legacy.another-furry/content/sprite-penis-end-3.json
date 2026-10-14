@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-penis-end-3",
+  "target": "core:sprite/penis-end-3",
+  "replacements": {
+    "image": "assets/legacy/2815-PenisEnd_3.png"
+  }
+}

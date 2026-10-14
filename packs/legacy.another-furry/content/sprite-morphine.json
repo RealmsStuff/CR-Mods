@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-morphine",
+  "target": "core:sprite/morphine",
+  "replacements": {
+    "image": "assets/legacy/3028-Morphine.png"
+  }
+}

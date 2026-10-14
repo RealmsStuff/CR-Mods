@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-brain-0",
+  "target": "core:sprite/brain-0",
+  "replacements": {
+    "image": "assets/legacy/3095-brain_0.png"
+  }
+}

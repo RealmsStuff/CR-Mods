@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-penis-base",
+  "target": "core:sprite/penis-base",
+  "replacements": {
+    "image": "assets/legacy/2089-PenisBase.png"
+  }
+}

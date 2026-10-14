@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-head-wip",
+  "target": "core:sprite/head-w-i-p",
+  "replacements": {
+    "image": "assets/legacy/2335-HeadWIP.png"
+  }
+}

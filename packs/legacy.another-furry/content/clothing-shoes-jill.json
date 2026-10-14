@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-shoes-jill",
+  "target": "core:clothing/shoes-jill",
+  "replacements": {
+    "piece/l-foot": "assets/legacy/2329-JillShoes.png",
+    "piece/l-leg-lower": "assets/legacy/2855-JillShoesLegLower.png",
+    "piece/r-foot": "assets/legacy/2329-JillShoes.png",
+    "piece/r-leg-lower": "assets/legacy/2855-JillShoesLegLower.png"
+  }
+}

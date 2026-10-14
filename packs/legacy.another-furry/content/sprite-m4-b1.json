@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-m4-b1",
+  "target": "core:sprite/m4-b1",
+  "replacements": {
+    "image": "assets/legacy/2458-M4B1.png"
+  }
+}

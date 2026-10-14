@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-bar-big",
+  "target": "core:sprite/bar-big",
+  "replacements": {
+    "image": "assets/legacy/2102-barBig.png"
+  }
+}

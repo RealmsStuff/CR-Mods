@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-arm-upper-17",
+  "target": "core:sprite/arm-upper-17",
+  "replacements": {
+    "image": "assets/legacy/2907-ArmUpper_17.png"
+  }
+}

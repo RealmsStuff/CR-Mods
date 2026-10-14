@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-bg-lab",
+    "target":  "core:sprite/bg-lab",
+    "replacements":  {
+                         "image":  "assets/legacy/2155-bgLab.png"
+                     }
+}

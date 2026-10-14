@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-blueprint",
+    "target":  "core:sprite/blueprint",
+    "replacements":  {
+                         "image":  "assets/legacy/2932-blueprint.png"
+                     }
+}

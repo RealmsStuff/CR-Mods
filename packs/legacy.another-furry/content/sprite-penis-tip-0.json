@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-penis-tip-0",
+  "target": "core:sprite/penis-tip-0",
+  "replacements": {
+    "image": "assets/legacy/2385-PenisTip_0.png"
+  }
+}

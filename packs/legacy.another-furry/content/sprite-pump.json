@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-pump",
+  "target": "core:sprite/pump",
+  "replacements": {
+    "image": "assets/legacy/2431-pump.png"
+  }
+}

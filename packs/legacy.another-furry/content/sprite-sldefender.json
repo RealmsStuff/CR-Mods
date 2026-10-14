@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-sldefender",
+  "target": "core:sprite/sldefender",
+  "replacements": {
+    "image": "assets/legacy/3037-sldefender.png"
+  }
+}

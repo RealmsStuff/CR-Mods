@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-hair-asian",
+  "target": "core:clothing/hair-asian",
+  "replacements": {
+    "icon": "assets/legacy/2553-HairAsian.png",
+    "piece/hair": "assets/legacy/2553-HairAsian.png"
+  }
+}

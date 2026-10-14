@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-ear-broken",
+  "target": "core:sprite/ear-broken",
+  "replacements": {
+    "image": "assets/legacy/3053-EarBroken.png"
+  }
+}

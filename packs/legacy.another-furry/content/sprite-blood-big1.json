@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-blood-big1",
+  "target": "core:sprite/blood-big1",
+  "replacements": {
+    "image": "assets/legacy/2049-BloodBig1.png"
+  }
+}

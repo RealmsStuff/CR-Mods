@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-leg-upper-bloody",
+  "target": "core:sprite/leg-upper-bloody",
+  "replacements": {
+    "image": "assets/legacy/2766-LegUpperBloody.png"
+  }
+}

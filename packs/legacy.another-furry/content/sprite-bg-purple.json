@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-bg-purple",
+    "target":  "core:sprite/bg-purple",
+    "replacements":  {
+                         "image":  "assets/legacy/3085-bgPurple.png"
+                     }
+}

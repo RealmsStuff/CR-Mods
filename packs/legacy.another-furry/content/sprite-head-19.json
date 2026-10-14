@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-head-19",
+  "target": "core:sprite/head-19",
+  "replacements": {
+    "image": "assets/legacy/3059-Head_19.png"
+  }
+}

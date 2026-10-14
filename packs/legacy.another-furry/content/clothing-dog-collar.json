@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-dog-collar",
+  "target": "core:clothing/dog-collar",
+  "replacements": {
+    "piece/neck": "assets/legacy/2796-DogCollar.png"
+  }
+}

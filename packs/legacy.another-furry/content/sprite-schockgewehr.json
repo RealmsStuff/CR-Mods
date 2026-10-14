@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-schockgewehr",
+  "target": "core:sprite/schockgewehr",
+  "replacements": {
+    "image": "assets/legacy/2821-schockgewehr.png"
+  }
+}

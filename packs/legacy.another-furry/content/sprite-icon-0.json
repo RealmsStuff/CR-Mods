@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-icon-0",
+  "target": "core:sprite/icon-0",
+  "replacements": {
+    "image": "assets/legacy/2208-Icon_0.png"
+  }
+}

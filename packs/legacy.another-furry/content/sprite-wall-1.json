@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-wall-1",
+    "target":  "core:sprite/wall-1",
+    "replacements":  {
+                         "image":  "assets/legacy/2558-Wall.png"
+                     }
+}

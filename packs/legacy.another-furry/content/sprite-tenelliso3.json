@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-tenelliso3",
+  "target": "core:sprite/tenelliso3",
+  "replacements": {
+    "image": "assets/legacy/2491-tenelliso3.png"
+  }
+}

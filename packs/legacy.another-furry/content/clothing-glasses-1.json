@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-glasses-1",
+  "target": "core:clothing/glasses-1",
+  "replacements": {
+    "icon": "assets/legacy/2047-Glasses1.png",
+    "piece/glasses": "assets/legacy/2047-Glasses1.png"
+  }
+}

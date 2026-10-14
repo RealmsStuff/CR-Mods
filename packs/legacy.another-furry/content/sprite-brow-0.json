@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-brow-0",
+  "target": "core:sprite/brow-0",
+  "replacements": {
+    "image": "assets/legacy/2545-Brow_0.png"
+  }
+}

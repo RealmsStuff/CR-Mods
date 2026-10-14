@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-bg-basement",
+    "target":  "core:sprite/bg-basement",
+    "replacements":  {
+                         "image":  "assets/legacy/2875-bgBasement.png"
+                     }
+}

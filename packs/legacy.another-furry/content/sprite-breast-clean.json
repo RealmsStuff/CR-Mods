@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-breast-clean",
+  "target": "core:sprite/breast-clean",
+  "replacements": {
+    "image": "assets/legacy/2863-BreastClean.png"
+  }
+}

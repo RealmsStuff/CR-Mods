@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-spine-3",
+  "target": "core:sprite/spine-3",
+  "replacements": {
+    "image": "assets/legacy/2185-Spine_3.png"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-hand-jill",
+  "target": "core:clothing/hand-jill",
+  "replacements": {
+    "icon": "assets/legacy/2483-JillRHand.png",
+    "piece/l-hand": "assets/legacy/2634-JillLHand.png",
+    "piece/r-hand": "assets/legacy/2483-JillRHand.png"
+  }
+}

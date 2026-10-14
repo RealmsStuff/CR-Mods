@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-penis-0",
+  "target": "core:sprite/penis-0",
+  "replacements": {
+    "image": "assets/legacy/2320-penis_0.png"
+  }
+}

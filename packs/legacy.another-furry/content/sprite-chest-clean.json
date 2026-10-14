@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-chest-clean",
+  "target": "core:sprite/chest-clean",
+  "replacements": {
+    "image": "assets/legacy/3116-ChestClean.png"
+  }
+}

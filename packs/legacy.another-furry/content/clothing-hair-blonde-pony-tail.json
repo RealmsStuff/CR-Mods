@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-hair-blonde-pony-tail",
+  "target": "core:clothing/hair-blonde-pony-tail",
+  "replacements": {
+    "icon": "assets/legacy/3014-HairBlondePonyTail.png",
+    "piece/hair": "assets/legacy/3014-HairBlondePonyTail.png"
+  }
+}

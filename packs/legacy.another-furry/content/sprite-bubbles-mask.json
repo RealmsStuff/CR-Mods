@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-bubbles-mask",
+  "target": "core:sprite/bubbles-mask",
+  "replacements": {
+    "image": "assets/legacy/2740-bubblesMask.png"
+  }
+}

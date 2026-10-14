@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-weapon-vendor",
+  "target": "core:sprite/weapon-vendor",
+  "replacements": {
+    "image": "assets/legacy/2153-WeaponVendor.png"
+  }
+}

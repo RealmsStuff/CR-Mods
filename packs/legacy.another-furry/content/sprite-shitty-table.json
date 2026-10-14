@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-shitty-table",
+  "target": "core:sprite/shitty-table",
+  "replacements": {
+    "image": "assets/legacy/2849-shittyTable.png"
+  }
+}

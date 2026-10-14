@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-playboy-bunny-ears",
+  "target": "core:clothing/playboy-bunny-ears",
+  "replacements": {
+    "icon": "assets/legacy/2424-PlayboyBunnyEars.png",
+    "piece/head": "assets/legacy/2424-PlayboyBunnyEars.png"
+  }
+}

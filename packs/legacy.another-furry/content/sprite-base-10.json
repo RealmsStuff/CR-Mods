@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-base-10",
+  "target": "core:sprite/base-10",
+  "replacements": {
+    "image": "assets/legacy/2594-base_10.png"
+  }
+}

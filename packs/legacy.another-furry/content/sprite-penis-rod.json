@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-penis-rod",
+  "target": "core:sprite/penis-rod",
+  "replacements": {
+    "image": "assets/legacy/2263-PenisRod.png"
+  }
+}
