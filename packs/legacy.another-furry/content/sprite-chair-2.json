@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-chair-2",
+  "target": "core:sprite/chair-2",
+  "replacements": {
+    "image": "assets/legacy/2915-Chair_2.png"
+  }
+}

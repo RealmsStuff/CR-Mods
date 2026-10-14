@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-magazine-0",
+  "target": "core:sprite/magazine-0",
+  "replacements": {
+    "image": "assets/legacy/2115-magazine_0.png"
+  }
+}

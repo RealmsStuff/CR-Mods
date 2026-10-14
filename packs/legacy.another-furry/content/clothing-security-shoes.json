@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-security-shoes",
+  "target": "core:clothing/security-shoes",
+  "replacements": {
+    "icon": "assets/legacy/2577-SecurityShoes.png",
+    "piece/l-foot": "assets/legacy/2577-SecurityShoes.png",
+    "piece/r-foot": "assets/legacy/2577-SecurityShoes.png"
+  }
+}

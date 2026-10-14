@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-arm-lower-19",
+  "target": "core:sprite/arm-lower-19",
+  "replacements": {
+    "image": "assets/legacy/3022-ArmLower_19.png"
+  }
+}

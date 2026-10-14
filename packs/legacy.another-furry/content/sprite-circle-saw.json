@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-circle-saw",
+  "target": "core:sprite/circle-saw",
+  "replacements": {
+    "image": "assets/legacy/2549-circleSaw.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-blood-platform",
+  "target": "core:sprite/blood-platform",
+  "replacements": {
+    "image": "assets/legacy/3081-BloodPlatform.png"
+  }
+}

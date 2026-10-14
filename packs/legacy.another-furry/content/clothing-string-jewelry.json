@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-string-jewelry",
+  "target": "core:clothing/string-jewelry",
+  "replacements": {
+    "icon": "assets/legacy/2045-JewelrySpineIcon.png"
+  }
+}

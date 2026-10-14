@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-stage",
+    "target":  "core:sprite/stage",
+    "replacements":  {
+                         "image":  "assets/legacy/3003-Stage.png"
+                     }
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-programming-socks-pink-white",
+  "target": "core:clothing/programming-socks-pink-white",
+  "replacements": {
+    "piece/l-foot": "assets/legacy/2033-ProgrammingSocksPinkWhiteFoot.png",
+    "piece/l-leg-lower": "assets/legacy/2573-ProgrammingSocksPinkWhiteLegLower.png",
+    "piece/l-leg-upper": "assets/legacy/2836-ProgrammingSocksPinkWhiteLegUpper.png",
+    "piece/r-foot": "assets/legacy/2033-ProgrammingSocksPinkWhiteFoot.png",
+    "piece/r-leg-lower": "assets/legacy/2573-ProgrammingSocksPinkWhiteLegLower.png",
+    "piece/r-leg-upper": "assets/legacy/2836-ProgrammingSocksPinkWhiteLegUpper.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-surgery-bed-jacky",
+  "target": "core:sprite/surgery-bed-jacky",
+  "replacements": {
+    "image": "assets/legacy/2223-surgeryBedJacky.png"
+  }
+}

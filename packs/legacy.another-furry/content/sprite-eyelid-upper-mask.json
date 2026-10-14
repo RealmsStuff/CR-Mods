@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-eyelid-upper-mask",
+  "target": "core:sprite/eyelid-upper-mask",
+  "replacements": {
+    "image": "assets/legacy/2532-EyelidUpperMask.png"
+  }
+}

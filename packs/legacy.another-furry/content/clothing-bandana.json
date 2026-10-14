@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-bandana",
+  "target": "core:clothing/bandana",
+  "replacements": {
+    "piece/head": "assets/legacy/2728-bandana.png"
+  }
+}

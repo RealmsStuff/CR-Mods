@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-breast",
+  "target": "core:sprite/breast",
+  "replacements": {
+    "image": "assets/legacy/2355-Breast.png"
+  }
+}

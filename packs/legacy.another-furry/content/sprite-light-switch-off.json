@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-light-switch-off",
+  "target": "core:sprite/light-switch-off",
+  "replacements": {
+    "image": "assets/legacy/2258-lightSwitchOff.png"
+  }
+}

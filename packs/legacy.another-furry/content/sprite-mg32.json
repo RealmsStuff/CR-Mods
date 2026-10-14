@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-mg32",
+  "target": "core:sprite/mg32",
+  "replacements": {
+    "image": "assets/legacy/2725-mg32.png"
+  }
+}

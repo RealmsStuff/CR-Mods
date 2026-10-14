@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-skirt",
+  "target": "core:sprite/skirt",
+  "replacements": {
+    "image": "assets/legacy/2183-Skirt.png"
+  }
+}

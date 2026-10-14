@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-hand-19",
+  "target": "core:sprite/hand-19",
+  "replacements": {
+    "image": "assets/legacy/3117-Hand_19.png"
+  }
+}

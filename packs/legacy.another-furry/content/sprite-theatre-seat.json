@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-theatre-seat",
+  "target": "core:sprite/theatre-seat",
+  "replacements": {
+    "image": "assets/legacy/2922-theatreSeat.png"
+  }
+}

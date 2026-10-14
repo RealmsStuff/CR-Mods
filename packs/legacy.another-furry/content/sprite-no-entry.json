@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-no-entry",
+  "target": "core:sprite/no-entry",
+  "replacements": {
+    "image": "assets/legacy/2521-noEntry.png"
+  }
+}

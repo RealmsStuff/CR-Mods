@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-dog-ears",
+  "target": "core:clothing/dog-ears",
+  "replacements": {
+    "icon": "assets/legacy/2138-DogEars.png",
+    "piece/head": "assets/legacy/2138-DogEars.png"
+  }
+}

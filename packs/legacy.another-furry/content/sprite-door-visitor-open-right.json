@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-door-visitor-open-right",
+    "target":  "core:sprite/door-visitor-open-right",
+    "replacements":  {
+                         "image":  "assets/legacy/3005-DoorVisitorOpenRight.png"
+                     }
+}

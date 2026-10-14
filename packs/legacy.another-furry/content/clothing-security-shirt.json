@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-security-shirt",
+  "target": "core:clothing/security-shirt",
+  "replacements": {
+    "icon": "assets/legacy/2066-SecurityChest.png",
+    "piece/shirt-chest": "assets/legacy/2066-SecurityChest.png",
+    "piece/shirt-collar": "assets/legacy/2336-SecurityShirtCollar.png",
+    "piece/shirt-l-arm-lower": "assets/legacy/2024-SecurityArmLower.png",
+    "piece/shirt-l-arm-upper": "assets/legacy/2641-SecurityArmUpperLeft.png",
+    "piece/shirt-r-arm-lower": "assets/legacy/2024-SecurityArmLower.png",
+    "piece/shirt-r-arm-upper": "assets/legacy/3035-SecurityArmUpper.png",
+    "piece/shirt-spine": "assets/legacy/2912-SecuritySpine.png"
+  }
+}

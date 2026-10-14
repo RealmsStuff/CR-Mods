@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-revolver",
+  "target": "core:sprite/revolver",
+  "replacements": {
+    "image": "assets/legacy/2663-revolver.png"
+  }
+}

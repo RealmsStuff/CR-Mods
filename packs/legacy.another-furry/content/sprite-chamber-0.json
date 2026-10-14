@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-chamber-0",
+  "target": "core:sprite/chamber-0",
+  "replacements": {
+    "image": "assets/legacy/2568-chamber_0.png"
+  }
+}

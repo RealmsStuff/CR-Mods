@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-np9",
+  "target": "core:sprite/np9",
+  "replacements": {
+    "image": "assets/legacy/2479-np9.png"
+  }
+}

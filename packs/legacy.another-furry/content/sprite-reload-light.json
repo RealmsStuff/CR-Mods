@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-reload-light",
+  "target": "core:sprite/reload-light",
+  "replacements": {
+    "image": "assets/legacy/2798-reloadLight.png"
+  }
+}

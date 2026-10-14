@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-brain-glass-overlay",
+  "target": "core:sprite/brain-glass-overlay",
+  "replacements": {
+    "image": "assets/legacy/2819-brainGlassOverlay.png"
+  }
+}

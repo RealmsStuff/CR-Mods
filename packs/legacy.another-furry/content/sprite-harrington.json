@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-harrington",
+  "target": "core:sprite/harrington",
+  "replacements": {
+    "image": "assets/legacy/2570-harrington.png"
+  }
+}

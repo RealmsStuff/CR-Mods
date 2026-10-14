@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-wall-bottom-closed",
+    "target":  "core:sprite/wall-bottom-closed",
+    "replacements":  {
+                         "image":  "assets/legacy/2202-WallBottomClosed.png"
+                     }
+}

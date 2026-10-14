@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-crying-mask",
+  "target": "core:clothing/crying-mask",
+  "replacements": {
+    "icon": "assets/legacy/2392-cryingMask.png",
+    "piece/head": "assets/legacy/2392-cryingMask.png"
+  }
+}

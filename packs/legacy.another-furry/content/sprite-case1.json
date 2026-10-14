@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-case1",
+  "target": "core:sprite/case1",
+  "replacements": {
+    "image": "assets/legacy/3019-Case1.png"
+  }
+}

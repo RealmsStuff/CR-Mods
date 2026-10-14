@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-status-player-hud-item",
+  "target": "core:sprite/status-player-hud-item",
+  "replacements": {
+    "image": "assets/legacy/2894-StatusPlayerHudItem.png"
+  }
+}

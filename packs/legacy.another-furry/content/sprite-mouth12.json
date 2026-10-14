@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-mouth12",
+  "target": "core:sprite/mouth12",
+  "replacements": {
+    "image": "assets/legacy/2960-Mouth12.png"
+  }
+}

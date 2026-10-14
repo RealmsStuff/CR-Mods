@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-knife",
+    "target":  "core:sprite/knife",
+    "replacements":  {
+                         "image":  "assets/legacy/2686-knife.png"
+                     }
+}

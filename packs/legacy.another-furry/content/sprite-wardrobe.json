@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-wardrobe",
+  "target": "core:sprite/wardrobe",
+  "replacements": {
+    "image": "assets/legacy/2222-Wardrobe.png"
+  }
+}

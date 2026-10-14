@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-foot-end-0",
+  "target": "core:sprite/foot-end-0",
+  "replacements": {
+    "image": "assets/legacy/2307-FootEnd_0.png"
+  }
+}

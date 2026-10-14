@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-scientist-set",
+  "target": "core:clothing/scientist-set",
+  "replacements": {
+    "icon": "assets/legacy/2608-ScientistChest.png",
+    "piece/butt": "assets/legacy/2087-ScientistButt.png",
+    "piece/hips": "assets/legacy/2243-ScientistHips.png",
+    "piece/l-leg-lower": "assets/legacy/2110-ScientistLegLower.png",
+    "piece/l-leg-upper": "assets/legacy/2305-ScientistLegUpper.png",
+    "piece/r-leg-lower": "assets/legacy/2110-ScientistLegLower.png",
+    "piece/r-leg-upper": "assets/legacy/2305-ScientistLegUpper.png",
+    "piece/shirt-chest": "assets/legacy/2608-ScientistChest.png",
+    "piece/shirt-l-arm-lower": "assets/legacy/2226-ScientistArmLower.png",
+    "piece/shirt-l-arm-upper": "assets/legacy/2480-ScientistArmUpper.png",
+    "piece/shirt-r-arm-lower": "assets/legacy/2226-ScientistArmLower.png",
+    "piece/shirt-r-arm-upper": "assets/legacy/2480-ScientistArmUpper.png",
+    "piece/shirt-spine": "assets/legacy/2701-ScientistSpine.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-stockings-ada",
+  "target": "core:clothing/stockings-ada",
+  "replacements": {
+    "icon": "assets/legacy/2546-AdaStockingUpper.png",
+    "piece/l-foot": "assets/legacy/2449-AdaStockingFeet.png",
+    "piece/l-leg-lower": "assets/legacy/2489-AdaStockingLower.png",
+    "piece/l-leg-upper": "assets/legacy/2546-AdaStockingUpper.png",
+    "piece/r-foot": "assets/legacy/2449-AdaStockingFeet.png",
+    "piece/r-leg-lower": "assets/legacy/2489-AdaStockingLower.png",
+    "piece/r-leg-upper": "assets/legacy/2546-AdaStockingUpper.png"
+  }
+}

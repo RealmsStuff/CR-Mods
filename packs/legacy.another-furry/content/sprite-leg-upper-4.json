@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-leg-upper-4",
+  "target": "core:sprite/leg-upper-4",
+  "replacements": {
+    "image": "assets/legacy/2266-LegUpper_4.png"
+  }
+}

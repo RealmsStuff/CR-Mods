@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-butt-8",
+  "target": "core:sprite/butt-8",
+  "replacements": {
+    "image": "assets/legacy/2493-Butt_8.png"
+  }
+}

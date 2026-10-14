@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-head-fear",
+  "target": "core:sprite/head-fear",
+  "replacements": {
+    "image": "assets/legacy/2917-HeadFear.png"
+  }
+}

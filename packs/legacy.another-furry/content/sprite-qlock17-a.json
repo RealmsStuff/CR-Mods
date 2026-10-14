@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-qlock17-a",
+  "target": "core:sprite/qlock17-a",
+  "replacements": {
+    "image": "assets/legacy/2635-Qlock17A.png"
+  }
+}

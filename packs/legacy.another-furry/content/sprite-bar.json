@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-bar",
+  "target": "core:sprite/bar",
+  "replacements": {
+    "image": "assets/legacy/2616-Bar.png"
+  }
+}

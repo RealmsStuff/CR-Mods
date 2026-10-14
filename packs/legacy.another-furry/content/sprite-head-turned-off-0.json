@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-head-turned-off-0",
+  "target": "core:sprite/head-turned-off-0",
+  "replacements": {
+    "image": "assets/legacy/2469-HeadTurnedOff_0.png"
+  }
+}

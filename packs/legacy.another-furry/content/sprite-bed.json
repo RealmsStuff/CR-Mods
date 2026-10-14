@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-bed",
+  "target": "core:sprite/bed",
+  "replacements": {
+    "image": "assets/legacy/2607-Bed.png"
+  }
+}

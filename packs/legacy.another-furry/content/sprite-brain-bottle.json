@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-brain-bottle",
+  "target": "core:sprite/brain-bottle",
+  "replacements": {
+    "image": "assets/legacy/2736-brainBottle.png"
+  }
+}

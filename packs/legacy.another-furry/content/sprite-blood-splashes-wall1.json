@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-blood-splashes-wall1",
+  "target": "core:sprite/blood-splashes-wall1",
+  "replacements": {
+    "image": "assets/legacy/2076-BloodSplashesWall1.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-arm-wrap",
+  "target": "core:clothing/arm-wrap",
+  "replacements": {
+    "piece/r-arm-upper": "assets/legacy/2419-ArmWrap.png"
+  }
+}

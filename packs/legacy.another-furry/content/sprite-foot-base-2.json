@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-foot-base-2",
+  "target": "core:sprite/foot-base-2",
+  "replacements": {
+    "image": "assets/legacy/2713-FootBase_2.png"
+  }
+}

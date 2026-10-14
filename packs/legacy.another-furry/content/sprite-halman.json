@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-halman",
+  "target": "core:sprite/halman",
+  "replacements": {
+    "image": "assets/legacy/2262-halman.png"
+  }
+}

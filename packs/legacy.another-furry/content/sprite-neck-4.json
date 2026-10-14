@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-neck-4",
+  "target": "core:sprite/neck-4",
+  "replacements": {
+    "image": "assets/legacy/2337-Neck_4.png"
+  }
+}

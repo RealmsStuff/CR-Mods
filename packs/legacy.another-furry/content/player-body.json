@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/player-body",
+  "target": "core:player",
+  "replacements": {
+    "body/arm-lower/tan": "assets/legacy/2035-ArmLower_0.png",
+    "body/arm-upper/tan": "assets/legacy/3069-ArmUpper_21.png",
+    "body/arm-upper/white": "assets/legacy/2229-ArmUpper_7.png",
+    "body/butt/tan": "assets/legacy/2288-Butt_4.png",
+    "body/chest/tan": "assets/legacy/2260-Chest_2.png",
+    "body/chest/white": "assets/legacy/2870-Chest_13.png",
+    "body/ear/tan": "assets/legacy/2254-Ear_0.png",
+    "body/foot/tan": "assets/legacy/3034-Foot_14.png",
+    "body/foot/white": "assets/legacy/2874-Foot_13.png",
+    "body/hand/tan": "assets/legacy/2169-Hand_0.png",
+    "body/hand/white": "assets/legacy/2720-Hand_11.png",
+    "body/head/tan": "assets/legacy/2162-Head_0.png",
+    "body/head/white": "assets/legacy/2418-Head_5.png",
+    "body/hips/tan": "assets/legacy/3115-Hip_9.png",
+    "body/hips/white": "assets/legacy/2529-Hip_4.png",
+    "body/leg-lower/tan": "assets/legacy/2785-LegLower_14.png",
+    "body/leg-lower/white": "assets/legacy/2057-LegLower.png",
+    "body/leg-upper/tan": "assets/legacy/2927-LegUpper_13.png",
+    "body/leg-upper/white": "assets/legacy/2948-LegUpper_14.png",
+    "body/neck/tan": "assets/legacy/2069-Neck.png",
+    "body/neck/white": "assets/legacy/2328-Neck_2.png",
+    "body/torso-lower/tan": "assets/legacy/2747-TorsoLower_6.png",
+    "body/torso-lower/white": "assets/legacy/3100-TorsoLower_9.png",
+    "face/eyelid-lower/tan": "assets/legacy/2246-EyelidLowerTan.png"
+  }
+}

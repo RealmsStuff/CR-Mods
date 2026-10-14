@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-stamina-bar-fill",
+  "target": "core:sprite/stamina-bar-fill",
+  "replacements": {
+    "image": "assets/legacy/2884-StaminaBarFill.png"
+  }
+}

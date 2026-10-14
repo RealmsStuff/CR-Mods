@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-bprec",
+  "target": "core:sprite/b-prec",
+  "replacements": {
+    "image": "assets/legacy/2992-BPrec.png"
+  }
+}

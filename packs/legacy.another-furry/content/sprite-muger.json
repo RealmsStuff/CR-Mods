@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-muger",
+  "target": "core:sprite/muger",
+  "replacements": {
+    "image": "assets/legacy/2929-muger.png"
+  }
+}

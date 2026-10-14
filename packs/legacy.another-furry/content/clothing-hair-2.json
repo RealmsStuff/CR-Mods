@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-hair-2",
+  "target": "core:clothing/hair-2",
+  "replacements": {
+    "icon": "assets/legacy/2474-Hair2.png",
+    "piece/hair": "assets/legacy/2474-Hair2.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-hockey-mask",
+  "target": "core:clothing/hockey-mask",
+  "replacements": {
+    "icon": "assets/legacy/3001-hockeyMask.png",
+    "piece/head": "assets/legacy/3001-hockeyMask.png"
+  }
+}

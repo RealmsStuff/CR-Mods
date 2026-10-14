@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-leg-lower-4",
+  "target": "core:sprite/leg-lower-4",
+  "replacements": {
+    "image": "assets/legacy/2380-LegLower_4.png"
+  }
+}

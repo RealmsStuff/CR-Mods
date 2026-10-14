@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-hat-jill",
+  "target": "core:clothing/hat-jill",
+  "replacements": {
+    "icon": "assets/legacy/2660-JillHat.png",
+    "piece/head": "assets/legacy/2660-JillHat.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-eye-white-0",
+  "target": "core:sprite/eye-white-0",
+  "replacements": {
+    "image": "assets/legacy/2627-EyeWhite_0.png"
+  }
+}

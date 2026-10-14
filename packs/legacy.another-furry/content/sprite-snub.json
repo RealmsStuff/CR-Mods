@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-snub",
+  "target": "core:sprite/snub",
+  "replacements": {
+    "image": "assets/legacy/2280-snub.png"
+  }
+}

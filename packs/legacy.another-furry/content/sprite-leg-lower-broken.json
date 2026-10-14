@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-leg-lower-broken",
+  "target": "core:sprite/leg-lower-broken",
+  "replacements": {
+    "image": "assets/legacy/2249-LegLowerBroken.png"
+  }
+}

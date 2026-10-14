@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/clothing-stockings-default",
+  "target": "core:clothing/stockings-default",
+  "replacements": {
+    "piece/l-foot": "assets/legacy/2844-StockingDefaultFoot.png",
+    "piece/r-foot": "assets/legacy/2844-StockingDefaultFoot.png"
+  }
+}

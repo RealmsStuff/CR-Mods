@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-np40",
+  "target": "core:sprite/n-p40",
+  "replacements": {
+    "image": "assets/legacy/2697-NP40.png"
+  }
+}

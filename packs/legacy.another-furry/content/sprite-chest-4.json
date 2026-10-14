@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-chest-4",
+  "target": "core:sprite/chest-4",
+  "replacements": {
+    "image": "assets/legacy/2340-Chest_4.png"
+  }
+}

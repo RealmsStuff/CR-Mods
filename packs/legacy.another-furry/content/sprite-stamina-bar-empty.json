@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-stamina-bar-empty",
+  "target": "core:sprite/stamina-bar-empty",
+  "replacements": {
+    "image": "assets/legacy/2082-StaminaBarEmpty.png"
+  }
+}

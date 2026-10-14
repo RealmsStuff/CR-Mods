@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-title-bg",
+  "target": "core:sprite/title-bg",
+  "replacements": {
+    "image": "assets/legacy/2107-titleBg.png"
+  }
+}

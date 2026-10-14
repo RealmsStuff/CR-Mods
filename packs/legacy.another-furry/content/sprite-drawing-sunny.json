@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-drawing-sunny",
+    "target":  "core:sprite/drawing-sunny",
+    "replacements":  {
+                         "image":  "assets/legacy/2077-DrawingSunny.png"
+                     }
+}

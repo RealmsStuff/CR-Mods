@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-stamina-bar-danger",
+  "target": "core:sprite/stamina-bar-danger",
+  "replacements": {
+    "image": "assets/legacy/2714-StaminaBarDanger.png"
+  }
+}

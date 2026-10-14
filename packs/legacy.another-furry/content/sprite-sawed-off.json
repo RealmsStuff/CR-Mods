@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-sawed-off",
+  "target": "core:sprite/sawed-off",
+  "replacements": {
+    "image": "assets/legacy/2151-SawedOff.png"
+  }
+}

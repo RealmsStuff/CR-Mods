@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-usable-vendor",
+  "target": "core:sprite/usable-vendor",
+  "replacements": {
+    "image": "assets/legacy/2470-UsableVendor.png"
+  }
+}

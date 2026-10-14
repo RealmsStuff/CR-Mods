@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-plate-of-food",
+  "target": "core:sprite/plate-of-food",
+  "replacements": {
+    "image": "assets/legacy/2450-plateOfFood.png"
+  }
+}

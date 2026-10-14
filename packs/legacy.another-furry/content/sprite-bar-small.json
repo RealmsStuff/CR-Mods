@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "assetPatch",
+  "id": "legacy.another-furry:patch/sprite-bar-small",
+  "target": "core:sprite/bar-small",
+  "replacements": {
+    "image": "assets/legacy/2261-barSmall.png"
+  }
+}

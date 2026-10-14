@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  1,
+    "type":  "assetPatch",
+    "id":  "legacy.another-furry:patch/sprite-ground-seperator",
+    "target":  "core:sprite/ground-seperator",
+    "replacements":  {
+                         "image":  "assets/legacy/2604-groundSeperator.png"
+                     }
+}
