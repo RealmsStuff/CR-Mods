@@ -195,7 +195,7 @@
       "id": "mousai.femboy-refitted-shirt", "displayName": "Femboy Clothing Refit", "authors": ["Mousai"],
       "summary": "Faithful data-only conversion of the legacy Femboy edition's custom body and refitted Core clothing.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods",
       "tags": ["visual", "clothing", "legacy-port"], "contentWarnings": ["Adult sexual content"],
-      "versions": [{"version": "1.4.0", "modApiVersion": 1, "gameVersion": ">=2.1.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/mousai-femboy-refitted-shirt.capmod", "sha256": "d1a10621a7aae30f498fdfe775bc59fcb9db2e14642c3569d0516365c7d4c9bd", "sizeBytes": 35270, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": ["example.advanced-clothing-showcase"]}]
+      "versions": [{"version": "1.5.0", "modApiVersion": 1, "gameVersion": ">=2.2.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/mousai-femboy-refitted-shirt-1.5.0.capmod", "sha256": "8cb0d7f40c27ade9c9ecedd1ad2dfef8b71688026b6122b78b35d11756f9f02d", "sizeBytes": 35613, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": ["example.advanced-clothing-showcase"]}]
     },
     {
       "id": "somescrub.simple-nerf-gun", "displayName": "Simple Nerf Gun", "authors": ["@SomeScrub"],
