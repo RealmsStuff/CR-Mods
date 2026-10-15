@@ -141,7 +141,7 @@
       "id": "legacy.futanari-small-tweaks", "displayName": "Futanari + Small Tweaks", "authors": ["Legacy mod author"],
       "summary": "Faithful conversion layered over the identical Small Tweaks artwork.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods", "previewImages": ["https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/packs/legacy.futanari-small-tweaks/preview.png"],
       "tags": ["visual", "player", "legacy-port"], "contentWarnings": ["Adult sexual content"],
-      "versions": [{"version": "1.0.0", "modApiVersion": 1, "gameVersion": ">=2.1.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/legacy-futanari-small-tweaks.capmod", "sha256": "eb2b357b71edacc236b5a7aed48b6a7cfd90ababf9722937471b221cc6518715", "sizeBytes": 64475, "dependencies": [{"id": "core", "version": ">=0.1.0"}, {"id": "legacy.small-tweaks", "version": ">=1.0.0"}], "conflicts": ["mousai.femboy-refitted-shirt", "legacy.smaller-breast-and-butt"]}]
+      "versions": [{"version": "1.1.0", "modApiVersion": 1, "gameVersion": ">=2.2.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/legacy-futanari-small-tweaks-1.1.0.capmod", "sha256": "bd52b2d3cc2432ce7ddb30c81ca51c48c39fc40d7a8fb2c27131b95897b9ef9b", "sizeBytes": 64843, "dependencies": [{"id": "core", "version": ">=0.1.0"}, {"id": "legacy.small-tweaks", "version": ">=1.0.0"}], "conflicts": ["mousai.femboy-refitted-shirt", "legacy.smaller-breast-and-butt"]}]
     },
     {
       "id": "legacy.futazombies", "displayName": "FutaZombies", "authors": ["Legacy mod author"],
