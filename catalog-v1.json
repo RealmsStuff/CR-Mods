@@ -207,7 +207,7 @@
       "id": "yithiggy.art-pack", "displayName": "YiThiggy Art Pack", "authors": ["YiThiggy"],
       "summary": "A collection of 21 graphical hairstyles and three animal-ear accessories by YiThiggy.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods",
       "tags": ["visual", "clothing", "hair", "accessories"], "contentWarnings": ["Adult sexual content"],
-      "versions": [{"version": "1.2.0", "modApiVersion": 1, "gameVersion": ">=2.1.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/yithiggy-art-pack.capmod", "sha256": "4a1e5f1f8e4e73337ffa22eb5e260a5c12ef94cd88d1ec4ef5e84d3c5ebdf101", "sizeBytes": 41279, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []}]
+      "versions": [{"version": "1.2.1", "modApiVersion": 1, "gameVersion": ">=2.1.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/yithiggy-art-pack.capmod", "sha256": "8c63b5521d2c2a5bc9849e87f5d3a75e41189e0fcc97ed9ceffd65f004248578", "sizeBytes": 41401, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []}]
     }
   ]
 }
