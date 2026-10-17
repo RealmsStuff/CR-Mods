@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "type": "clothing",
+  "id": "yithiggy.art-pack:clothing/cat-ears",
+  "displayName": "Cat Ears",
+  "description": "",
+  "extends": "core:clothing/playboy-bunny-ears",
+  "unlockedByDefault": true,
+  "category": "Hat",
+  "incompatibleCategories": [],
+  "visual": {
+    "type": "coreClothingSprites",
+    "pixelsPerUnit": 32,
+    "sprites": {
+      "icon": "assets/icons/cat-ears.png",
+      "piece/head": "assets/accessories/cat-ears.png"
+    },
+    "attachments": {
+      "piece/head": {
+        "bone": "Head",
+        "offsetX": 0,
+        "offsetY": 0,
+        "attachToBone": true,
+        "pivotX": 0.470790,
+        "pivotY": 0.267890,
+        "sortingOffset": 6
+      }
+    }
+  }
+}
