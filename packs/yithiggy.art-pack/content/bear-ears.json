@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "type": "clothing",
+  "id": "yithiggy.art-pack:clothing/bear-ears",
+  "displayName": "Bear Ears",
+  "description": "",
+  "extends": "core:clothing/playboy-bunny-ears",
+  "unlockedByDefault": true,
+  "category": "Hat",
+  "incompatibleCategories": [],
+  "visual": {
+    "type": "coreClothingSprites",
+    "pixelsPerUnit": 32,
+    "sprites": {
+      "icon": "assets/icons/bear-ears.png",
+      "piece/head": "assets/accessories/bear-ears.png"
+    },
+    "attachments": {
+      "piece/head": {
+        "bone": "Head",
+        "offsetX": 0,
+        "offsetY": 0,
+        "attachToBone": true,
+        "pivotX": 0.470790,
+        "pivotY": 0.267890,
+        "sortingOffset": 6
+      }
+    }
+  }
+}

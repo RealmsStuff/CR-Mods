@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "clothing",
+  "id": "yithiggy.art-pack:clothing/hime",
+  "displayName": "Hime",
+  "description": "",
+  "extends": "core:clothing/hair-default",
+  "unlockedByDefault": true,
+  "category": "Hair",
+  "incompatibleCategories": ["Hair"],
+  "visual": {
+    "type": "coreClothingSprites",
+    "pixelsPerUnit": 32,
+    "sprites": {
+      "icon": "assets/icons/hime.png",
+      "piece/hair": "assets/hair/hime.png"
+    },
+    "attachments": {
+      "piece/hair": {
+        "bone": "Head",
+        "attachToBone": true,
+        "pivotX": 0.470790,
+        "pivotY": 0.267890,
+        "sortingOffset": 0
+      }
+    }
+  }
+}

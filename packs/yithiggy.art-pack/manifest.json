@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "yithiggy.art-pack",
+  "displayName": "YiThiggy Art Pack",
+  "version": "1.2.0",
+  "modApiVersion": 1,
+  "authors": ["YiThiggy"],
+  "description": "A collection of graphical mods by YiThiggy.",
+  "dependencies": [{ "id": "core", "version": ">=0.1.0" }],
+  "conflicts": [],
+  "contentRoots": ["content"]
+}
