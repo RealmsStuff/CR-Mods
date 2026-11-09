@@ -1,0 +1,2 @@
+# Tiled tilesets are packed byte for byte into .capmod files; keep their line endings.
+*.tsj -text
