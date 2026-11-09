@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "saintpeverell.samantha",
+  "displayName": "Samantha, the Boxing Kangaroo",
+  "version": "0.3.0",
+  "modApiVersion": 1,
+  "authors": [
+    "Saint Peverell"
+  ],
+  "description": "Samantha, a boxing kangaroo animatronic with artist-made art: an original enemy who shuffles in a boxer's stance, throws jabs, a one-two-hook, an overhand haymaker and a tail kick, and pins the player for a four-phase punching grab. Spawn her on the \"Sandbox: Samantha\" stage from the Sandbox Extras pack (saintpeverell.sandbox-extras). In game 2.2.3 she also comes to Furry Entertainment Robotics, from its Jenny and Sunny spawners: from wave 3 once the game's minimum-wave fix is out, from wave 1 on 2.2.3 itself.",
+  "dependencies": [
+    {
+      "id": "core",
+      "version": ">=0.1.0"
+    }
+  ],
+  "contentRoots": [
+    "content"
+  ],
+  "previewImages": [
+    "preview.png"
+  ]
+}

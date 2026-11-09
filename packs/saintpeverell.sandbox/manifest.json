@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "saintpeverell.sandbox",
+  "displayName": "Sandbox",
+  "version": "1.0.0",
+  "modApiVersion": 1,
+  "authors": [
+    "Saint Peverell"
+  ],
+  "description": "A wide, flat arena with a switch for every Core enemy. Press Use at a switch and that enemy walks in from the far end. No waves.",
+  "dependencies": [
+    {
+      "id": "core",
+      "version": ">=0.1.0"
+    }
+  ],
+  "contentRoots": [
+    "content"
+  ],
+  "previewImages": [
+    "preview.png"
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "type": "stage",
+  "id": "saintpeverell.sandbox:stage/sandbox",
+  "displayName": "Sandbox",
+  "extends": "core:stage/mod-template",
+  "description": "A flat arena with a switch for every Core enemy. Enemies only come from the switches.",
+  "layout": {
+    "type": "tiledJson",
+    "path": "levels/sandbox.json",
+    "pixelsPerUnit": 32,
+    "hideInheritedVisuals": true
+  },
+  "waves": {
+    "firstWaveEnemyCount": 1
+  },
+  "spawners": [
+    {
+      "id": "abby",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/abby"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "death-hound",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/death-hound"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "fly",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/fly"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "goblin-marksman",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/goblin-marksman"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "goblin-trapper",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/goblin-trapper"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "gremlin",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/gremlin"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "head-humper",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/head-humper"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "hunter",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/hunter"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "jacky",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/jacky"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "jenny",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/jenny"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "litigant",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/litigant"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "maggot",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/maggot"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "musca",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/musca"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "orc",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/orc"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "spider-mother",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/spider-mother"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "sqoid",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/sqoid"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "sunny",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/sunny"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "zombie-1",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/zombie-1"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "zombie-2",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/zombie-2"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "zombie-3",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/zombie-3"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    },
+    {
+      "id": "zombie-grabber",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "core:enemy/zombie-grabber"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    }
+  ]
+}

@@ -208,6 +208,24 @@
       "summary": "A collection of 22 hairstyles, three layered animal-ear accessories, and two full-body outfits by YiThiggy.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods", "previewImages": ["https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/packs/yithiggy.art-pack/preview.png"],
       "tags": ["visual", "clothing", "hair", "accessories"], "contentWarnings": ["Adult sexual content"],
       "versions": [{"version": "1.4.0", "modApiVersion": 1, "gameVersion": ">=2.2.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/yithiggy-art-pack.capmod", "sha256": "0f1e032ea9949c7ba078cfb39a6e44454e94745a8b06a950b4201e7a04593744", "sizeBytes": 195220, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []}]
+    },
+    {
+      "id": "saintpeverell.samantha", "displayName": "Samantha, the Boxing Kangaroo", "authors": ["Saint Peverell"],
+      "summary": "Samantha, a boxing kangaroo animatronic: an original enemy who throws jabs, hooks, a haymaker and a tail kick, and pins the player for a four-phase punching grab. She also comes to Furry Entertainment Robotics (from wave 3 once the game's minimum-wave fix is out, from wave 1 on 2.2.3) and has her own \"Sandbox: Samantha\" stage in Sandbox Extras.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods", "previewImages": ["https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/packs/saintpeverell.samantha/preview.png"],
+      "tags": ["enemy", "original-enemy", "animatronic"], "contentWarnings": ["Adult sexual content"],
+      "versions": [{"version": "0.3.0", "modApiVersion": 1, "gameVersion": ">=2.2.3", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/saintpeverell-samantha.capmod", "sha256": "e52e85976d4333521362b904973b8e354e1c17d5c978b6bf34a36cee8908f86c", "sizeBytes": 262991, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []}]
+    },
+    {
+      "id": "saintpeverell.sandbox", "displayName": "Sandbox", "authors": ["Saint Peverell"],
+      "summary": "A wide, flat arena for trying enemies one at a time: press Use at a switch and that Core enemy walks in from the far end. No waves.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods", "previewImages": ["https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/packs/saintpeverell.sandbox/preview.png"],
+      "tags": ["stage", "sandbox", "testing"], "contentWarnings": ["Adult sexual content"],
+      "versions": [{"version": "1.0.0", "modApiVersion": 1, "gameVersion": ">=2.2.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/saintpeverell-sandbox.capmod", "sha256": "4371356cdac0ba8b7564248603914f4e1c0896fc6070b9d250e25e39b7c9e163", "sizeBytes": 158787, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []}]
+    },
+    {
+      "id": "saintpeverell.sandbox-extras", "displayName": "Sandbox Extras", "authors": ["Saint Peverell"],
+      "summary": "A small Sandbox arena for Samantha (installed with it): press Use at its switch and she walks in from the far end. No waves.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods", "previewImages": ["https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/packs/saintpeverell.sandbox-extras/preview.png"],
+      "tags": ["stage", "sandbox", "testing"], "contentWarnings": ["Adult sexual content"],
+      "versions": [{"version": "1.0.0", "modApiVersion": 1, "gameVersion": ">=2.2.3", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/saintpeverell-sandbox-extras.capmod", "sha256": "8125637f432f54d73178731e04216cc7d86b2ac6f9dee1ca0aebb98b33f8c39a", "sizeBytes": 149471, "dependencies": [{"id": "core", "version": ">=0.1.0"}, {"id": "saintpeverell.samantha", "version": ">=0.2.0"}], "conflicts": []}]
     }
   ]
 }
