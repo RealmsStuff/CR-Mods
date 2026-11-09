@@ -1,0 +1,5237 @@
+{
+  "schemaVersion": 1,
+  "type": "enemyAnimation",
+  "id": "saintpeverell.samantha:enemy-animation/samantha/finisher-jabs",
+  "enemy": "saintpeverell.samantha:enemy/samantha",
+  "displayName": "Samantha finisher-jabs",
+  "durationSeconds": 4.0,
+  "frameRate": 60.0,
+  "loop": false,
+  "tracks": [
+    {
+      "target": "bone/arm-left-lower",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 1.2652,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": 0.9407,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 63.5526,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": 1.2652,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/arm-left-upper",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 127.5689,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": 121.2151,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 112.4932,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": 127.5689,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/arm-right-lower",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 64.6356,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 50.4205,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 62.6604,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 72.8875,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 66.2277,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 59.9306,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 65.435,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 63.2158,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 51.9654,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 56.8219,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 71.5263,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": 126.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/arm-right-upper",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 32.8624,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 44.4416,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 34.5279,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 25.5596,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 31.0146,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 36.5301,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 32.2916,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 34.2549,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 43.2082,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 39.3143,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 26.8634,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": -22.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/chest",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -6.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": -9.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": -6.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/hand-left",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 20.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/hand-right",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": -10.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/head",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/hips",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": -2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": -8.4,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": -4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/hips",
+      "property": "position.x",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": -0.04,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 0.12,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/hips",
+      "property": "position.y",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": -0.312,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": -0.3,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/l-foot-base",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 23.655,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": 22.1203,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 28.6164,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": 23.655,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/l-foot-end",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/leg-left-lower",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -65.3449,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": -64.632,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": -68.1593,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": -65.3449,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/leg-left-upper",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 45.6899,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": 44.5117,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 47.9429,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": 45.6899,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/leg-right-lower",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -66.5406,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": -66.9796,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": -65.9141,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": -66.5406,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/leg-right-upper",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 30.2228,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": 29.6543,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 30.6365,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": 30.2228,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/neck",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 4.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/r-foot-base",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 40.3177,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": 39.3253,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": 43.6776,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": 40.3177,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/r-foot-end",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/spine",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": 2.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": -3.2,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": 0.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/tail-1",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -58.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4167,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.4667,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.6667,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 0.8333,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.0833,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1333,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.1667,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.3333,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4167,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.4667,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.5,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.6667,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.75,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 1.8333,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.0833,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1333,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.1667,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.3333,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4167,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.4667,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.6667,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.75,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 2.8333,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.0833,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1333,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.1667,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.3333,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4167,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.4667,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.5,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.6667,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.75,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8,
+          "value": -54.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 3.8333,
+          "value": -66.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": -58.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/tail-2",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -14.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    },
+    {
+      "target": "bone/tail-3",
+      "property": "rotation.z",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": -12.0,
+          "inTangent": 0.0,
+          "outTangent": 0.0
+        }
+      ]
+    }
+  ],
+  "objectTracks": [],
+  "events": [
+    {
+      "time": 0.5,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 0.5,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 0.5,
+      "type": "cue",
+      "cue": "finisher.impact"
+    },
+    {
+      "time": 0.8333,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 0.8333,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 0.8333,
+      "type": "cue",
+      "cue": "finisher.impact"
+    },
+    {
+      "time": 1.1667,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 1.1667,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 1.1667,
+      "type": "cue",
+      "cue": "finisher.impact"
+    },
+    {
+      "time": 1.5,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 1.5,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 1.5,
+      "type": "cue",
+      "cue": "finisher.impact"
+    },
+    {
+      "time": 1.8333,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 1.8333,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 1.8333,
+      "type": "cue",
+      "cue": "finisher.impact"
+    },
+    {
+      "time": 2.1667,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 2.1667,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 2.1667,
+      "type": "cue",
+      "cue": "finisher.impact"
+    },
+    {
+      "time": 2.5,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 2.5,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 2.5,
+      "type": "cue",
+      "cue": "finisher.impact"
+    },
+    {
+      "time": 2.8333,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 2.8333,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 2.8333,
+      "type": "cue",
+      "cue": "finisher.impact"
+    },
+    {
+      "time": 3.1667,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 3.1667,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 3.1667,
+      "type": "cue",
+      "cue": "finisher.impact"
+    },
+    {
+      "time": 3.5,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 3.5,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 3.5,
+      "type": "cue",
+      "cue": "finisher.impact"
+    },
+    {
+      "time": 3.8333,
+      "type": "sound",
+      "file": "assets/audio/punch.ogg",
+      "volume": 0.6667
+    },
+    {
+      "time": 3.8333,
+      "type": "cameraShake",
+      "amount": 0.15
+    },
+    {
+      "time": 3.8333,
+      "type": "cue",
+      "cue": "finisher.impact"
+    }
+  ],
+  "effects": [],
+  "effectTriggers": [],
+  "warnings": [],
+  "source": {
+    "generator": "SamanthaExampleGenerator"
+  }
+}

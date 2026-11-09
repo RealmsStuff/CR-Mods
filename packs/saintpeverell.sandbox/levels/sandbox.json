@@ -1,0 +1,2124 @@
+{
+  "compressionlevel": -1,
+  "infinite": false,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tiledversion": "1.12.2",
+  "version": "1.10",
+  "type": "map",
+  "width": 110,
+  "height": 24,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "nextlayerid": 6,
+  "nextobjectid": 79,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "source": "../tilesets/sandbox-dirt.tsj"
+    },
+    {
+      "firstgid": 2,
+      "source": "../tilesets/sandbox-grass.tsj"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "Backdrop",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "trees-0",
+          "type": "core-art",
+          "x": 0,
+          "y": 128,
+          "width": 592,
+          "height": 512,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "jungle-trees"
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Background"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "int",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "trees-1",
+          "type": "core-art",
+          "x": 592,
+          "y": 128,
+          "width": 592,
+          "height": 512,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "jungle-trees"
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Background"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "int",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "trees-2",
+          "type": "core-art",
+          "x": 1184,
+          "y": 128,
+          "width": 592,
+          "height": 512,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "jungle-trees"
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Background"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "int",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "trees-3",
+          "type": "core-art",
+          "x": 1776,
+          "y": 128,
+          "width": 592,
+          "height": 512,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "jungle-trees"
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Background"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "int",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "trees-4",
+          "type": "core-art",
+          "x": 2368,
+          "y": 128,
+          "width": 592,
+          "height": 512,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "jungle-trees"
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Background"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "int",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "trees-5",
+          "type": "core-art",
+          "x": 2928,
+          "y": 128,
+          "width": 592,
+          "height": 512,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "jungle-trees"
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Background"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "int",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ground Art",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 7,
+          "name": "ground-top",
+          "type": "decoration",
+          "x": 0,
+          "y": 672,
+          "width": 3520,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 2,
+          "properties": [
+            {
+              "name": "repeat",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Platform"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "ground-fill",
+          "type": "decoration",
+          "x": 0,
+          "y": 768,
+          "width": 3520,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "gid": 1,
+          "properties": [
+            {
+              "name": "repeat",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Platform"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gameplay",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 9,
+          "name": "floor",
+          "type": "platform",
+          "x": 0,
+          "y": 640,
+          "width": 3520,
+          "height": 128,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "climbableLeft",
+              "type": "bool",
+              "value": false
+            },
+            {
+              "name": "climbableRight",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "west-wall",
+          "type": "platform",
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 640,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "climbableLeft",
+              "type": "bool",
+              "value": false
+            },
+            {
+              "name": "climbableRight",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "east-wall",
+          "type": "platform",
+          "x": 3488,
+          "y": 0,
+          "width": 32,
+          "height": 640,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "climbableLeft",
+              "type": "bool",
+              "value": false
+            },
+            {
+              "name": "climbableRight",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "player",
+          "type": "player-spawn",
+          "x": 128,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 56,
+          "name": "abby",
+          "type": "enemy-spawner",
+          "x": 3328,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 57,
+          "name": "death-hound",
+          "type": "enemy-spawner",
+          "x": 3296,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 58,
+          "name": "fly",
+          "type": "enemy-spawner",
+          "x": 3264,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 59,
+          "name": "goblin-marksman",
+          "type": "enemy-spawner",
+          "x": 3232,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 60,
+          "name": "goblin-trapper",
+          "type": "enemy-spawner",
+          "x": 3328,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 61,
+          "name": "gremlin",
+          "type": "enemy-spawner",
+          "x": 3296,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 62,
+          "name": "head-humper",
+          "type": "enemy-spawner",
+          "x": 3264,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 63,
+          "name": "hunter",
+          "type": "enemy-spawner",
+          "x": 3232,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 64,
+          "name": "jacky",
+          "type": "enemy-spawner",
+          "x": 3328,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 65,
+          "name": "jenny",
+          "type": "enemy-spawner",
+          "x": 3296,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 66,
+          "name": "litigant",
+          "type": "enemy-spawner",
+          "x": 3264,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 67,
+          "name": "maggot",
+          "type": "enemy-spawner",
+          "x": 3232,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 68,
+          "name": "musca",
+          "type": "enemy-spawner",
+          "x": 3328,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 69,
+          "name": "orc",
+          "type": "enemy-spawner",
+          "x": 3296,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 70,
+          "name": "spider-mother",
+          "type": "enemy-spawner",
+          "x": 3264,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 71,
+          "name": "sqoid",
+          "type": "enemy-spawner",
+          "x": 3232,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 72,
+          "name": "sunny",
+          "type": "enemy-spawner",
+          "x": 3328,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 73,
+          "name": "zombie-1",
+          "type": "enemy-spawner",
+          "x": 3296,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 74,
+          "name": "zombie-2",
+          "type": "enemy-spawner",
+          "x": 3264,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 75,
+          "name": "zombie-3",
+          "type": "enemy-spawner",
+          "x": 3232,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 76,
+          "name": "zombie-grabber",
+          "type": "enemy-spawner",
+          "x": 3328,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Buttons",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 13,
+          "name": "guide",
+          "type": "note",
+          "x": 72,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Sandbox\n\nEach switch along the floor spawns one enemy at the far east end. The note to the right of a switch names it.\n\nThe switches wake up when Wave 1 starts. There are no normal waves: enemies only come from the switches."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 28
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "button-abby",
+          "type": "interaction",
+          "x": 256,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Abby"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "abby"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "label-abby",
+          "type": "note",
+          "x": 304,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Abby\n\nThe switch to the left spawns one Abby at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "button-death-hound",
+          "type": "interaction",
+          "x": 352,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Death Hound"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "death-hound"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "label-death-hound",
+          "type": "note",
+          "x": 400,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Death Hound\n\nThe switch to the left spawns one Death Hound at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "button-fly",
+          "type": "interaction",
+          "x": 448,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Fly"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "fly"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "label-fly",
+          "type": "note",
+          "x": 496,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Fly\n\nThe switch to the left spawns one Fly at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "button-goblin-marksman",
+          "type": "interaction",
+          "x": 544,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Goblin Marksman"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "goblin-marksman"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "label-goblin-marksman",
+          "type": "note",
+          "x": 592,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Goblin Marksman\n\nThe switch to the left spawns one Goblin Marksman at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "button-goblin-trapper",
+          "type": "interaction",
+          "x": 640,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Goblin Trapper"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "goblin-trapper"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "label-goblin-trapper",
+          "type": "note",
+          "x": 688,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Goblin Trapper\n\nThe switch to the left spawns one Goblin Trapper at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "button-gremlin",
+          "type": "interaction",
+          "x": 736,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Gremlin"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "gremlin"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "label-gremlin",
+          "type": "note",
+          "x": 784,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Gremlin\n\nThe switch to the left spawns one Gremlin at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "button-head-humper",
+          "type": "interaction",
+          "x": 832,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Head Humper"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "head-humper"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "label-head-humper",
+          "type": "note",
+          "x": 880,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Head Humper\n\nThe switch to the left spawns one Head Humper at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "button-hunter",
+          "type": "interaction",
+          "x": 928,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Hunter"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "hunter"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "label-hunter",
+          "type": "note",
+          "x": 976,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Hunter\n\nThe switch to the left spawns one Hunter at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "button-jacky",
+          "type": "interaction",
+          "x": 1024,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Jacky"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "jacky"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "label-jacky",
+          "type": "note",
+          "x": 1072,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Jacky\n\nThe switch to the left spawns one Jacky at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "button-jenny",
+          "type": "interaction",
+          "x": 1120,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Jenny"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "jenny"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "label-jenny",
+          "type": "note",
+          "x": 1168,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Jenny\n\nThe switch to the left spawns one Jenny at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "button-litigant",
+          "type": "interaction",
+          "x": 1216,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Litigant"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "litigant"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "label-litigant",
+          "type": "note",
+          "x": 1264,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Litigant\n\nThe switch to the left spawns one Litigant at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "button-maggot",
+          "type": "interaction",
+          "x": 1312,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Maggot"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "maggot"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "label-maggot",
+          "type": "note",
+          "x": 1360,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Maggot\n\nThe switch to the left spawns one Maggot at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "button-musca",
+          "type": "interaction",
+          "x": 1408,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Musca"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "musca"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "name": "label-musca",
+          "type": "note",
+          "x": 1456,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Musca\n\nThe switch to the left spawns one Musca at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "button-orc",
+          "type": "interaction",
+          "x": 1504,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Orc"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "orc"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "label-orc",
+          "type": "note",
+          "x": 1552,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Orc\n\nThe switch to the left spawns one Orc at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "button-spider-mother",
+          "type": "interaction",
+          "x": 1600,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Spider Mother"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "spider-mother"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "name": "label-spider-mother",
+          "type": "note",
+          "x": 1648,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Spider Mother\n\nThe switch to the left spawns one Spider Mother at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "button-sqoid",
+          "type": "interaction",
+          "x": 1696,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Sqoid"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "sqoid"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "name": "label-sqoid",
+          "type": "note",
+          "x": 1744,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Sqoid\n\nThe switch to the left spawns one Sqoid at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "name": "button-sunny",
+          "type": "interaction",
+          "x": 1792,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Sunny"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "sunny"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "label-sunny",
+          "type": "note",
+          "x": 1840,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Sunny\n\nThe switch to the left spawns one Sunny at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "button-zombie-1",
+          "type": "interaction",
+          "x": 1888,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Zombie I"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "zombie-1"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "name": "label-zombie-1",
+          "type": "note",
+          "x": 1936,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Zombie I\n\nThe switch to the left spawns one Zombie I at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "name": "button-zombie-2",
+          "type": "interaction",
+          "x": 1984,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Zombie II"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "zombie-2"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "name": "label-zombie-2",
+          "type": "note",
+          "x": 2032,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Zombie II\n\nThe switch to the left spawns one Zombie II at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "name": "button-zombie-3",
+          "type": "interaction",
+          "x": 2080,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Zombie III"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "zombie-3"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "name": "label-zombie-3",
+          "type": "note",
+          "x": 2128,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Zombie III\n\nThe switch to the left spawns one Zombie III at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "name": "button-zombie-grabber",
+          "type": "interaction",
+          "x": 2176,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Zombie Grabber"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "zombie-grabber"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "name": "label-zombie-grabber",
+          "type": "note",
+          "x": 2224,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Zombie Grabber\n\nThe switch to the left spawns one Zombie Grabber at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Props",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 77,
+          "name": "far-lamp",
+          "type": "core-art",
+          "x": 3136,
+          "y": 576,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "lamp"
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "name": "far-barrel",
+          "type": "core-art",
+          "x": 3392,
+          "y": 624,
+          "width": 64,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "barrel"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "type": "coreEnemyFork",
+  "source": "core:enemy/abby",
+  "enemy": "saintpeverell.samantha:enemy/samantha",
+  "enemyFile": "content/samantha.enemy.json",
+  "atlas": "assets/enemies/samantha/atlas.png",
+  "notes": [
+    "Artist-made art painted over Abby's region layout; tail-1..3 are new bones.",
+    "Abby's root and skeleton-android containers are removed: hips is the single top-level bone.",
+    "The anatomy bones (penis-rod, penis-base, penis-end) are kept for rig compatibility but never drawn.",
+    "jump and climb are Abby's clips; every other clip is authored for Samantha.",
+    "The optional weave (dodge) is not included: original enemies have no dodge attack type."
+  ]
+}

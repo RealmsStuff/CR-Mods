@@ -1,0 +1,848 @@
+{
+  "schemaVersion": 1,
+  "type": "enemy",
+  "id": "saintpeverell.samantha:enemy/samantha",
+  "displayName": "Samantha",
+  "description": "F.E.R.'s boxing kangaroo animatronic, built for prize-fight birthday parties. She still counts the rounds.",
+  "stats": {
+    "healthMax": 75,
+    "healthIncreasePerWave": 1.5,
+    "bounty": 45,
+    "speedAcceleration": 6,
+    "speedMax": 3.6,
+    "traction": 0.2
+  },
+  "spawn": {
+    "inheritTemplateSpawners": false,
+    "joinCoreSpawners": [
+      { "enemy": "core:enemy/jenny", "selectionWeight": 0.5, "minimumWave": 3 }
+    ]
+  },
+  "ai": {
+    "type": "groundChase",
+    "preferredRange": 1.9,
+    "retreatRange": 1.5,
+    "reactionSeconds": 0.08
+  },
+  "behavior": {
+    "visionRange": 20,
+    "ignoreWave": false,
+    "modules": [
+      {
+        "type": "downedFinisher",
+        "triggerRange": 1.6,
+        "startDelaySeconds": 0.25,
+        "meterMax": 100,
+        "inputPower": 14,
+        "cooldownSeconds": 5,
+        "successOutcome": {
+          "healthRecovery": 8,
+          "enemyStunSeconds": 2.5
+        },
+        "failureOutcome": {
+          "healthDamage": 10,
+          "playerRagdollSeconds": 1.5
+        },
+        "statuses": {
+          "active": {
+            "title": "Pinned",
+            "description": "{enemy} has your wrists pinned!"
+          },
+          "infusion": {
+            "title": "Winded",
+            "description": "{enemy}'s last punch knocked the wind out of you."
+          },
+          "succumbed": {
+            "title": "Knocked out",
+            "description": "{enemy} knocked you out."
+          }
+        },
+        "phases": [
+          {
+            "id": "jabs",
+            "durationSeconds": 4.0,
+            "animation": "finisher-jabs",
+            "playerAnimationRef": "saintpeverell.samantha:player-animation/samantha/finisher-jabs",
+            "inputPower": 14.0,
+            "decayPerSecond": 2.0
+          },
+          {
+            "id": "body-shots",
+            "durationSeconds": 4.0,
+            "animation": "finisher-body-shots",
+            "playerAnimationRef": "saintpeverell.samantha:player-animation/samantha/finisher-body-shots",
+            "inputPower": 12.0,
+            "decayPerSecond": 4.0
+          },
+          {
+            "id": "heavy-hooks",
+            "durationSeconds": 4.0,
+            "animation": "finisher-heavy-hooks",
+            "playerAnimationRef": "saintpeverell.samantha:player-animation/samantha/finisher-heavy-hooks",
+            "inputPower": 10.0,
+            "decayPerSecond": 6.0
+          },
+          {
+            "id": "finisher",
+            "durationSeconds": 2.5,
+            "animation": "finisher-finisher",
+            "playerAnimationRef": "saintpeverell.samantha:player-animation/samantha/finisher-finisher",
+            "inputPower": 8.0,
+            "decayPerSecond": 8.0
+          }
+        ]
+      },
+      {
+        "type": "speedPulse",
+        "speedBonus": 2,
+        "intervalSeconds": 5,
+        "durationSeconds": 1
+      }
+    ]
+  },
+  "attacks": [
+    {
+      "id": "jab",
+      "type": "melee",
+      "animation": "jab",
+      "chance": 1.0,
+      "damage": 5.0,
+      "cooldownSeconds": 0.7,
+      "initiateRange": 2.0,
+      "hitRange": 2.3,
+      "durationSeconds": 0.75,
+      "movesDuringAttack": false,
+      "knockbackX": 2.0,
+      "knockbackY": 0.5
+    },
+    {
+      "id": "one-two-hook",
+      "type": "multiStage",
+      "animation": "one-two-hook",
+      "chance": 0.6,
+      "damage": 4.0,
+      "cooldownSeconds": 3.0,
+      "initiateRange": 2.0,
+      "hitRange": 2.35,
+      "durationSeconds": 1.83333337,
+      "movesDuringAttack": false,
+      "knockbackX": 2.0,
+      "knockbackY": 0.5,
+      "stages": [
+        {
+          "type": "melee",
+          "damage": 4,
+          "knockbackX": 2,
+          "knockbackY": 0.5
+        },
+        {
+          "type": "melee",
+          "damage": 4,
+          "knockbackX": 2,
+          "knockbackY": 0.5
+        },
+        {
+          "type": "melee",
+          "damage": 9,
+          "knockbackX": 9,
+          "knockbackY": 3
+        }
+      ]
+    },
+    {
+      "id": "haymaker",
+      "type": "melee",
+      "animation": "haymaker",
+      "chance": 0.45,
+      "damage": 14.0,
+      "cooldownSeconds": 6.0,
+      "initiateRange": 2.1,
+      "hitRange": 2.4,
+      "durationSeconds": 1.58333337,
+      "movesDuringAttack": false,
+      "knockbackX": 6.0,
+      "knockbackY": 3.0
+    },
+    {
+      "id": "tail-kick",
+      "type": "melee",
+      "animation": "tail-kick",
+      "chance": 0.35,
+      "damage": 10.0,
+      "cooldownSeconds": 8.0,
+      "initiateRange": 2.0,
+      "hitRange": 2.45,
+      "durationSeconds": 1.25,
+      "movesDuringAttack": false,
+      "knockbackX": 10.0,
+      "knockbackY": 4.0
+    },
+    {
+      "id": "grab",
+      "type": "grab",
+      "animation": "grab",
+      "chance": 1.0,
+      "damage": 0.0,
+      "cooldownSeconds": 4.0,
+      "initiateRange": 1.95,
+      "hitRange": 2.1,
+      "durationSeconds": 0.6666667,
+      "movesDuringAttack": false
+    }
+  ],
+  "animationRefs": {
+    "climb": "saintpeverell.samantha:enemy-animation/samantha/climb",
+    "finisher-body-shots": "saintpeverell.samantha:enemy-animation/samantha/finisher-body-shots",
+    "finisher-finisher": "saintpeverell.samantha:enemy-animation/samantha/finisher-finisher",
+    "finisher-heavy-hooks": "saintpeverell.samantha:enemy-animation/samantha/finisher-heavy-hooks",
+    "finisher-jabs": "saintpeverell.samantha:enemy-animation/samantha/finisher-jabs",
+    "get-up": "saintpeverell.samantha:enemy-animation/samantha/get-up",
+    "grab": "saintpeverell.samantha:enemy-animation/samantha/grab",
+    "haymaker": "saintpeverell.samantha:enemy-animation/samantha/haymaker",
+    "idle": "saintpeverell.samantha:enemy-animation/samantha/idle",
+    "jab": "saintpeverell.samantha:enemy-animation/samantha/jab",
+    "jump": "saintpeverell.samantha:enemy-animation/samantha/jump",
+    "move": "saintpeverell.samantha:enemy-animation/samantha/move",
+    "one-two-hook": "saintpeverell.samantha:enemy-animation/samantha/one-two-hook",
+    "tail-kick": "saintpeverell.samantha:enemy-animation/samantha/tail-kick"
+  },
+  "visual": {
+    "type": "originalSkeletonAtlas",
+    "atlas": "assets/enemies/samantha/atlas.png",
+    "pixelsPerUnit": 32.0,
+    "bodyWidth": 0.35,
+    "bodyHeight": 4.858,
+    "bodyOffsetX": 0.0,
+    "bodyOffsetY": -0.212,
+    "regions": {
+      "arm-lower": {
+        "x": 146,
+        "y": 1,
+        "width": 8,
+        "height": 24
+      },
+      "arm-upper": {
+        "x": 86,
+        "y": 1,
+        "width": 10,
+        "height": 30
+      },
+      "butt": {
+        "x": 187,
+        "y": 1,
+        "width": 19,
+        "height": 19
+      },
+      "chest": {
+        "x": 118,
+        "y": 1,
+        "width": 28,
+        "height": 25
+      },
+      "ear": {
+        "x": 38,
+        "y": 1,
+        "width": 12,
+        "height": 35
+      },
+      "empty": {
+        "x": 35,
+        "y": 43,
+        "width": 1,
+        "height": 1
+      },
+      "foot-base": {
+        "x": 155,
+        "y": 1,
+        "width": 18,
+        "height": 21
+      },
+      "foot-end": {
+        "x": 19,
+        "y": 43,
+        "width": 15,
+        "height": 9
+      },
+      "hand": {
+        "x": 207,
+        "y": 1,
+        "width": 14,
+        "height": 18
+      },
+      "head": {
+        "x": 51,
+        "y": 1,
+        "width": 35,
+        "height": 32
+      },
+      "hips": {
+        "x": 221,
+        "y": 1,
+        "width": 20,
+        "height": 18
+      },
+      "leg-lower": {
+        "x": 1,
+        "y": 1,
+        "width": 15,
+        "height": 41
+      },
+      "leg-upper": {
+        "x": 17,
+        "y": 1,
+        "width": 20,
+        "height": 41
+      },
+      "neck": {
+        "x": 10,
+        "y": 43,
+        "width": 8,
+        "height": 15
+      },
+      "spine": {
+        "x": 97,
+        "y": 1,
+        "width": 20,
+        "height": 27
+      },
+      "tail-1": {
+        "x": 174,
+        "y": 1,
+        "width": 12,
+        "height": 20
+      },
+      "tail-2": {
+        "x": 242,
+        "y": 1,
+        "width": 10,
+        "height": 18
+      },
+      "tail-3": {
+        "x": 1,
+        "y": 43,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "bones": [
+      {
+        "id": "hips",
+        "region": "hips",
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0,
+        "pivotX": 0.524978,
+        "pivotY": 0.513154,
+        "sortingOrder": 5
+      },
+      {
+        "id": "butt",
+        "parent": "hips",
+        "region": "butt",
+        "x": 0.002,
+        "y": -0.024,
+        "rotation": 0.0,
+        "pivotX": 0.816378,
+        "pivotY": 0.551211,
+        "sortingOrder": 4
+      },
+      {
+        "id": "leg-left-upper",
+        "parent": "hips",
+        "region": "leg-upper",
+        "x": 0.0007,
+        "y": -0.022,
+        "rotation": 0.0,
+        "pivotX": 0.525893,
+        "pivotY": 0.913863,
+        "sortingOrder": -8
+      },
+      {
+        "id": "penis-rod",
+        "parent": "hips",
+        "region": "empty",
+        "x": 0.184,
+        "y": 0.0076,
+        "rotation": 0.0,
+        "pivotX": 0.290054,
+        "pivotY": 0.496417,
+        "sortingOrder": 4
+      },
+      {
+        "id": "leg-right-upper",
+        "parent": "hips",
+        "region": "leg-upper",
+        "x": 0.0007,
+        "y": -0.022,
+        "rotation": 0.0,
+        "pivotX": 0.525893,
+        "pivotY": 0.913863,
+        "sortingOrder": 7
+      },
+      {
+        "id": "spine",
+        "parent": "hips",
+        "region": "spine",
+        "x": 0.003,
+        "y": 0.101,
+        "rotation": 0.0,
+        "pivotX": 0.526296,
+        "pivotY": 0.091741,
+        "sortingOrder": 6
+      },
+      {
+        "id": "leg-left-lower",
+        "parent": "leg-left-upper",
+        "region": "leg-lower",
+        "x": -0.0311,
+        "y": -1.0615,
+        "rotation": 0.0,
+        "pivotX": 0.567368,
+        "pivotY": 0.939016,
+        "sortingOrder": -7
+      },
+      {
+        "id": "penis-base",
+        "parent": "penis-rod",
+        "region": "empty",
+        "x": 0.127,
+        "y": 0.0032,
+        "rotation": 0.0,
+        "pivotX": 0.205436,
+        "pivotY": 0.508774,
+        "sortingOrder": 6
+      },
+      {
+        "id": "leg-right-lower",
+        "parent": "leg-right-upper",
+        "region": "leg-lower",
+        "x": -0.0311,
+        "y": -1.0615,
+        "rotation": 0.0,
+        "pivotX": 0.567368,
+        "pivotY": 0.939016,
+        "sortingOrder": 8
+      },
+      {
+        "id": "chest",
+        "parent": "spine",
+        "region": "chest",
+        "x": 0.0993,
+        "y": 0.5828,
+        "rotation": 0.0,
+        "pivotX": 0.7396,
+        "pivotY": 0.0859,
+        "sortingOrder": 7
+      },
+      {
+        "id": "l-foot-base",
+        "parent": "leg-left-lower",
+        "region": "foot-base",
+        "x": 0.0621,
+        "y": -1.0937,
+        "rotation": 0.0,
+        "pivotX": 0.361016,
+        "pivotY": 0.832637,
+        "sortingOrder": -8
+      },
+      {
+        "id": "penis-end",
+        "parent": "penis-base",
+        "region": "empty",
+        "x": 0.173,
+        "y": -0.0022,
+        "rotation": 0.0,
+        "pivotX": 0.153798,
+        "pivotY": 0.45035,
+        "sortingOrder": 7
+      },
+      {
+        "id": "r-foot-base",
+        "parent": "leg-right-lower",
+        "region": "foot-base",
+        "x": 0.0621,
+        "y": -1.0937,
+        "rotation": 0.0,
+        "pivotX": 0.361016,
+        "pivotY": 0.832637,
+        "sortingOrder": 7
+      },
+      {
+        "id": "breast",
+        "parent": "chest",
+        "region": "empty",
+        "x": -0.143,
+        "y": 0.313,
+        "rotation": 0.0,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "sortingOrder": 0
+      },
+      {
+        "id": "arm-left-upper",
+        "parent": "chest",
+        "region": "arm-upper",
+        "x": -0.444,
+        "y": 0.5115,
+        "rotation": 0.0,
+        "pivotX": 0.4513,
+        "pivotY": 0.8839,
+        "sortingOrder": -11
+      },
+      {
+        "id": "neck",
+        "parent": "chest",
+        "region": "neck",
+        "x": -0.3018,
+        "y": 0.5747,
+        "rotation": 0.0,
+        "pivotX": 0.5,
+        "pivotY": 0.233046,
+        "sortingOrder": 6
+      },
+      {
+        "id": "arm-right-upper",
+        "parent": "chest",
+        "region": "arm-upper",
+        "x": -0.444,
+        "y": 0.5115,
+        "rotation": 0.0,
+        "pivotX": 0.4513,
+        "pivotY": 0.8839,
+        "sortingOrder": 10
+      },
+      {
+        "id": "l-foot-end",
+        "parent": "l-foot-base",
+        "region": "foot-end",
+        "x": 0.2666,
+        "y": -0.3906,
+        "rotation": 0.0,
+        "pivotX": 0.202052,
+        "pivotY": 0.553603,
+        "sortingOrder": -7
+      },
+      {
+        "id": "r-foot-end",
+        "parent": "r-foot-base",
+        "region": "foot-end",
+        "x": 0.2666,
+        "y": -0.3906,
+        "rotation": 0.0,
+        "pivotX": 0.202052,
+        "pivotY": 0.553603,
+        "sortingOrder": 8
+      },
+      {
+        "id": "breast-bg",
+        "parent": "chest",
+        "region": "empty",
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "sortingOrder": 0
+      },
+      {
+        "id": "arm-left-lower",
+        "parent": "arm-left-upper",
+        "region": "arm-lower",
+        "x": 0.0,
+        "y": -0.6885,
+        "rotation": 0.0,
+        "pivotX": 0.4391,
+        "pivotY": 0.8951,
+        "sortingOrder": -10
+      },
+      {
+        "id": "head",
+        "parent": "neck",
+        "region": "head",
+        "x": 0.001,
+        "y": 0.252,
+        "rotation": 0.0,
+        "pivotX": 0.4004,
+        "pivotY": 0.1728,
+        "sortingOrder": 7
+      },
+      {
+        "id": "arm-right-lower",
+        "parent": "arm-right-upper",
+        "region": "arm-lower",
+        "x": 0.0,
+        "y": -0.6885,
+        "rotation": 0.0,
+        "pivotX": 0.4391,
+        "pivotY": 0.8951,
+        "sortingOrder": 11
+      },
+      {
+        "id": "hand-left",
+        "parent": "arm-left-lower",
+        "region": "hand",
+        "x": -0.0004,
+        "y": -0.5622,
+        "rotation": 0.0,
+        "pivotX": 0.3923,
+        "pivotY": 0.8053,
+        "sortingOrder": -11
+      },
+      {
+        "id": "hand-right",
+        "parent": "arm-right-lower",
+        "region": "hand",
+        "x": -0.0004,
+        "y": -0.5622,
+        "rotation": 0.0,
+        "pivotX": 0.3923,
+        "pivotY": 0.8053,
+        "sortingOrder": 10
+      },
+      {
+        "id": "l-ear",
+        "parent": "head",
+        "region": "ear",
+        "x": -0.19,
+        "y": 0.609,
+        "rotation": -31.7684,
+        "pivotX": 0.5,
+        "pivotY": 0.0862,
+        "sortingOrder": 6
+      },
+      {
+        "id": "r-ear",
+        "parent": "head",
+        "region": "ear",
+        "x": -0.19,
+        "y": 0.609,
+        "rotation": 20.2249,
+        "pivotX": 0.5,
+        "pivotY": 0.0862,
+        "sortingOrder": 8
+      },
+      {
+        "id": "tail-1",
+        "parent": "hips",
+        "region": "tail-1",
+        "x": -0.36,
+        "y": -0.12,
+        "rotation": -58.0,
+        "pivotX": 0.5,
+        "pivotY": 0.95,
+        "sortingOrder": -9
+      },
+      {
+        "id": "tail-2",
+        "parent": "tail-1",
+        "region": "tail-2",
+        "x": 0.0,
+        "y": -0.56,
+        "rotation": -14.0,
+        "pivotX": 0.5,
+        "pivotY": 0.95,
+        "sortingOrder": -9
+      },
+      {
+        "id": "tail-3",
+        "parent": "tail-2",
+        "region": "tail-3",
+        "x": 0.0,
+        "y": -0.5,
+        "rotation": -12.0,
+        "pivotX": 0.5,
+        "pivotY": 0.95,
+        "sortingOrder": -9
+      }
+    ],
+    "hitZones": [
+      {
+        "bone": "hips",
+        "shape": "box",
+        "width": 0.4082,
+        "height": 0.3767,
+        "offsetX": 0.0018,
+        "offsetY": -0.0061,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "butt",
+        "shape": "box",
+        "width": 0.1125,
+        "height": 0.4405,
+        "offsetX": -0.3578,
+        "offsetY": -0.036,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "leg-left-upper",
+        "shape": "box",
+        "width": 0.3444,
+        "height": 0.9703,
+        "offsetX": -0.0314,
+        "offsetY": -0.585,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "leg-right-upper",
+        "shape": "box",
+        "width": 0.3444,
+        "height": 0.9703,
+        "offsetX": -0.0314,
+        "offsetY": -0.585,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "spine",
+        "shape": "box",
+        "width": 0.4018,
+        "height": 0.5476,
+        "offsetX": -0.0006,
+        "offsetY": 0.2706,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "leg-left-lower",
+        "shape": "box",
+        "width": 0.1518,
+        "height": 1.0848,
+        "offsetX": 0.0421,
+        "offsetY": -0.5446,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "leg-right-lower",
+        "shape": "box",
+        "width": 0.1518,
+        "height": 1.0848,
+        "offsetX": 0.0421,
+        "offsetY": -0.5446,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "chest",
+        "shape": "box",
+        "width": 0.6416,
+        "height": 0.6172,
+        "offsetX": -0.2272,
+        "offsetY": 0.3132,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "l-foot-base",
+        "shape": "box",
+        "width": 0.3125,
+        "height": 0.25,
+        "offsetX": 0.0425,
+        "offsetY": -0.3321,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "r-foot-base",
+        "shape": "box",
+        "width": 0.3125,
+        "height": 0.25,
+        "offsetX": 0.0425,
+        "offsetY": -0.3321,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "arm-left-upper",
+        "shape": "box",
+        "width": 0.1866,
+        "height": 0.7079,
+        "offsetX": -0.0003,
+        "offsetY": -0.3936,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "neck",
+        "shape": "box",
+        "width": 0.123,
+        "height": 0.3335,
+        "offsetX": 0.001,
+        "offsetY": 0.1249,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "arm-right-upper",
+        "shape": "box",
+        "width": 0.1866,
+        "height": 0.7079,
+        "offsetX": -0.0003,
+        "offsetY": -0.3936,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "l-foot-end",
+        "shape": "box",
+        "width": 0.3298,
+        "height": 0.1028,
+        "offsetX": 0.1407,
+        "offsetY": -0.0289,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "r-foot-end",
+        "shape": "box",
+        "width": 0.3298,
+        "height": 0.1028,
+        "offsetX": 0.1407,
+        "offsetY": -0.0289,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "arm-left-lower",
+        "shape": "box",
+        "width": 0.141,
+        "height": 0.5255,
+        "offsetX": 0.0006,
+        "offsetY": -0.3115,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "head",
+        "shape": "circle",
+        "radius": 0.344,
+        "offsetX": -0.0322,
+        "offsetY": 0.3658,
+        "damageMultiplier": "critical"
+      },
+      {
+        "bone": "arm-right-lower",
+        "shape": "box",
+        "width": 0.141,
+        "height": 0.5255,
+        "offsetX": 0.0006,
+        "offsetY": -0.3115,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "hand-left",
+        "shape": "box",
+        "width": 0.223,
+        "height": 0.2266,
+        "offsetX": 0.0182,
+        "offsetY": -0.2692,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "hand-right",
+        "shape": "box",
+        "width": 0.223,
+        "height": 0.2266,
+        "offsetX": 0.0182,
+        "offsetY": -0.2692,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "tail-1",
+        "shape": "box",
+        "width": 0.3,
+        "height": 0.55,
+        "offsetY": -0.3,
+        "damageMultiplier": "low"
+      }
+    ]
+  }
+}

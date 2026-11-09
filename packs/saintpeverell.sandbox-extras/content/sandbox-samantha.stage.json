@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "type": "stage",
+  "id": "saintpeverell.sandbox-extras:stage/sandbox-samantha",
+  "displayName": "Sandbox: Samantha",
+  "extends": "core:stage/mod-template",
+  "description": "A small arena with a switch that spawns Samantha. Needs the Samantha pack.",
+  "layout": {
+    "type": "tiledJson",
+    "path": "levels/sandbox-samantha.json",
+    "pixelsPerUnit": 32,
+    "hideInheritedVisuals": true
+  },
+  "waves": {
+    "firstWaveEnemyCount": 1
+  },
+  "spawners": [
+    {
+      "id": "samantha",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "saintpeverell.samantha:enemy/samantha"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    }
+  ]
+}

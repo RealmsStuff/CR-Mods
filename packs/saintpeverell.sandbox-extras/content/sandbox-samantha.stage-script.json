@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "type": "stageScript",
+  "id": "saintpeverell.sandbox-extras:stage-script/sandbox-samantha-buttons",
+  "stage": "saintpeverell.sandbox-extras:stage/sandbox-samantha",
+  "sequences": [
+    {
+      "id": "lock-buttons",
+      "trigger": "stage-open",
+      "once": true,
+      "actions": [
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-samantha",
+          "active": false
+        }
+      ]
+    },
+    {
+      "id": "unlock-buttons",
+      "trigger": "wave-start",
+      "once": true,
+      "actions": [
+        {
+          "type": "wait",
+          "seconds": 10.75
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-samantha",
+          "active": true
+        },
+        {
+          "type": "notify",
+          "message": "Buttons ready: press Use at a switch to spawn that enemy at the far end."
+        }
+      ]
+    }
+  ]
+}

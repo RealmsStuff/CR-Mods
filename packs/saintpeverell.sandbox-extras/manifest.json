@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "saintpeverell.sandbox-extras",
+  "displayName": "Sandbox Extras",
+  "version": "1.0.0",
+  "modApiVersion": 1,
+  "authors": [
+    "Saint Peverell"
+  ],
+  "description": "A small Sandbox arena for Samantha: press Use at its switch and she walks in from the far end. No waves. Pip's stage comes back when his pack is published.",
+  "dependencies": [
+    {
+      "id": "core",
+      "version": ">=0.1.0"
+    },
+    {
+      "id": "saintpeverell.samantha",
+      "version": ">=0.2.0"
+    }
+  ],
+  "contentRoots": [
+    "content"
+  ],
+  "previewImages": [
+    "preview.png"
+  ]
+}

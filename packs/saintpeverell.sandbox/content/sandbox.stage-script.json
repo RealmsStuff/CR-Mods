@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "type": "stageScript",
+  "id": "saintpeverell.sandbox:stage-script/sandbox-buttons",
+  "stage": "saintpeverell.sandbox:stage/sandbox",
+  "sequences": [
+    {
+      "id": "lock-buttons",
+      "trigger": "stage-open",
+      "once": true,
+      "actions": [
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-abby",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-death-hound",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-fly",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-goblin-marksman",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-goblin-trapper",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-gremlin",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-head-humper",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-hunter",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-jacky",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-jenny",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-litigant",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-maggot",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-musca",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-orc",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-spider-mother",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-sqoid",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-sunny",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-zombie-1",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-zombie-2",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-zombie-3",
+          "active": false
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-zombie-grabber",
+          "active": false
+        }
+      ]
+    },
+    {
+      "id": "unlock-buttons",
+      "trigger": "wave-start",
+      "once": true,
+      "actions": [
+        {
+          "type": "wait",
+          "seconds": 10.75
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-abby",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-death-hound",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-fly",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-goblin-marksman",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-goblin-trapper",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-gremlin",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-head-humper",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-hunter",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-jacky",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-jenny",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-litigant",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-maggot",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-musca",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-orc",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-spider-mother",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-sqoid",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-sunny",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-zombie-1",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-zombie-2",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-zombie-3",
+          "active": true
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-zombie-grabber",
+          "active": true
+        },
+        {
+          "type": "notify",
+          "message": "Buttons ready: press Use at a switch to spawn that enemy at the far end."
+        }
+      ]
+    }
+  ]
+}
