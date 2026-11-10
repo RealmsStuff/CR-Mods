@@ -1,0 +1,19 @@
+{
+  "atlas": "ai-placeholder",
+  "releasable": true,
+  "finalRegions": [
+    "balls",
+    "bonebone",
+    "cockbone-2-base",
+    "cockbone-2-mid",
+    "cockbone-2-tip",
+    "cockbone-base",
+    "cockbone-mid",
+    "cockbone-tip",
+    "dogbone",
+    "sheath"
+  ],
+  "note": "atlas.png is AI-made placeholder art (ModSDK/EnemyTemplates/Pip/ai-placeholder: snap-and-cut.py, fit-rig.py) except finalRegions, the artist's final genital sprites (artist/genitals, cut by artist/cut-genitals.py, which recolours COCKbone_1's shaft and the sheath's tip grey silicone at the user's request). The atlas as a whole never ships until every region is final. Values: procedural-placeholder (build-placeholder.py), ai-placeholder (made with an AI image tool: never ships), final (the artist's sprites). Only final art may be packaged; Tools/Release/Test-ShippableArt.ps1 refuses anything else.",
+  "placeholderClips": [],
+  "releaseApproved": "2026-11-10: the owner approved shipping this atlas as it is, placeholder regions included."
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "saintpeverell.pip",
+  "displayName": "Pip, the Jumper",
+  "version": "0.2.0",
+  "modApiVersion": 1,
+  "authors": [
+    "Saint Peverell"
+  ],
+  "description": "Pip, a small animatronic teddy in a top hat: an original enemy who scurries at you like a wind-up toy, crouches, and leaps to cling on. His body art is a stand-in until his final sprites are done. He comes with his own \"Sandbox: Pip\" stage. In game 2.2.3 he also comes to Furry Entertainment Robotics, from its Abby spawners once the basement door is open: from wave 6 once the game's minimum-wave fix is out (wave 5 is always the Animatronic Spotlight wave), from wave 1 on 2.2.3 itself.",
+  "dependencies": [
+    {
+      "id": "core",
+      "version": ">=0.1.0"
+    }
+  ],
+  "previewImages": [
+    "preview.png"
+  ],
+  "contentRoots": [
+    "content"
+  ]
+}

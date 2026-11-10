@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "type": "stage",
+  "id": "saintpeverell.pip:stage/sandbox-pip",
+  "displayName": "Sandbox: Pip",
+  "extends": "core:stage/mod-template",
+  "description": "A small arena with a switch that spawns Pip.",
+  "layout": {
+    "type": "tiledJson",
+    "path": "levels/sandbox-pip.json",
+    "pixelsPerUnit": 32,
+    "hideInheritedVisuals": true
+  },
+  "waves": {
+    "firstWaveEnemyCount": 1
+  },
+  "spawners": [
+    {
+      "id": "pip",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "enemies": [
+        "saintpeverell.pip:enemy/pip"
+      ],
+      "selectionWeight": 1,
+      "minimumWave": 10000,
+      "delaySeconds": 0.25,
+      "delayJitterSeconds": 0,
+      "initialDelaySeconds": 0,
+      "initialDelayJitterSeconds": 0,
+      "spawnOutOfSight": false
+    }
+  ]
+}

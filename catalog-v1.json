@@ -226,6 +226,12 @@
       "summary": "A small Sandbox arena for Samantha (installed with it): press Use at its switch and she walks in from the far end. No waves.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods", "previewImages": ["https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/packs/saintpeverell.sandbox-extras/preview.png"],
       "tags": ["stage", "sandbox", "testing"], "contentWarnings": ["Adult sexual content"],
       "versions": [{"version": "1.0.0", "modApiVersion": 1, "gameVersion": ">=2.2.3", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/saintpeverell-sandbox-extras.capmod", "sha256": "8125637f432f54d73178731e04216cc7d86b2ac6f9dee1ca0aebb98b33f8c39a", "sizeBytes": 149471, "dependencies": [{"id": "core", "version": ">=0.1.0"}, {"id": "saintpeverell.samantha", "version": ">=0.2.0"}], "conflicts": []}]
+    },
+    {
+      "id": "saintpeverell.pip", "displayName": "Pip, the Jumper", "authors": ["Saint Peverell"],
+      "summary": "Pip, a small animatronic teddy in a top hat: an original enemy who scurries at you like a wind-up toy, crouches, and leaps to cling on for a long grab. He also comes to Furry Entertainment Robotics once its basement door is open (from wave 6 once the game's minimum-wave fix is out, from wave 1 on 2.2.3) and has his own \"Sandbox: Pip\" stage. His body art is a stand-in until his final sprites are done.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods", "previewImages": ["https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/packs/saintpeverell.pip/preview.png"],
+      "tags": ["enemy", "original-enemy", "animatronic"], "contentWarnings": ["Adult sexual content"],
+      "versions": [{"version": "0.2.0", "modApiVersion": 1, "gameVersion": ">=2.2.3", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/saintpeverell-pip.capmod", "sha256": "8ab426c2ed44ecaa49bef464f97bd97e2c65c07bd5ffc53ec7090a11cfc3df58", "sizeBytes": 1524186, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []}]
     }
   ]
 }

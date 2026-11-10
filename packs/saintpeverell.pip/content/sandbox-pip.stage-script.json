@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "type": "stageScript",
+  "id": "saintpeverell.pip:stage-script/sandbox-pip-buttons",
+  "stage": "saintpeverell.pip:stage/sandbox-pip",
+  "sequences": [
+    {
+      "id": "lock-buttons",
+      "trigger": "stage-open",
+      "once": true,
+      "actions": [
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-pip",
+          "active": false
+        }
+      ]
+    },
+    {
+      "id": "unlock-buttons",
+      "trigger": "wave-start",
+      "once": true,
+      "actions": [
+        {
+          "type": "wait",
+          "seconds": 10.75
+        },
+        {
+          "type": "set-interaction-enabled",
+          "objectId": "button-pip",
+          "active": true
+        },
+        {
+          "type": "notify",
+          "message": "Buttons ready: press Use at a switch to spawn that enemy at the far end."
+        }
+      ]
+    }
+  ]
+}
