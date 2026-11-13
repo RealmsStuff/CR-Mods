@@ -1,0 +1,468 @@
+{
+  "compressionlevel": -1,
+  "infinite": false,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tiledversion": "1.12.2",
+  "version": "1.10",
+  "type": "map",
+  "width": 56,
+  "height": 24,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "nextlayerid": 6,
+  "nextobjectid": 17,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "source": "../tilesets/sandbox-dirt.tsj"
+    },
+    {
+      "firstgid": 2,
+      "source": "../tilesets/sandbox-grass.tsj"
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "Backdrop",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 1,
+          "name": "trees-0",
+          "type": "core-art",
+          "x": 0,
+          "y": 128,
+          "width": 592,
+          "height": 512,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "jungle-trees"
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Background"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "int",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "trees-1",
+          "type": "core-art",
+          "x": 592,
+          "y": 128,
+          "width": 592,
+          "height": 512,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "jungle-trees"
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Background"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "int",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "trees-2",
+          "type": "core-art",
+          "x": 1184,
+          "y": 128,
+          "width": 592,
+          "height": 512,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "jungle-trees"
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Background"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "int",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "trees-3",
+          "type": "core-art",
+          "x": 1200,
+          "y": 128,
+          "width": 592,
+          "height": 512,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "jungle-trees"
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Background"
+            },
+            {
+              "name": "sortingOrder",
+              "type": "int",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ground Art",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 5,
+          "name": "ground-top",
+          "type": "decoration",
+          "x": 0,
+          "y": 672,
+          "width": 1792,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 2,
+          "properties": [
+            {
+              "name": "repeat",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Platform"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "ground-fill",
+          "type": "decoration",
+          "x": 0,
+          "y": 768,
+          "width": 1792,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "gid": 1,
+          "properties": [
+            {
+              "name": "repeat",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "sortingLayer",
+              "type": "string",
+              "value": "Platform"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gameplay",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 7,
+          "name": "floor",
+          "type": "platform",
+          "x": 0,
+          "y": 640,
+          "width": 1792,
+          "height": 128,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "climbableLeft",
+              "type": "bool",
+              "value": false
+            },
+            {
+              "name": "climbableRight",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "west-wall",
+          "type": "platform",
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 640,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "climbableLeft",
+              "type": "bool",
+              "value": false
+            },
+            {
+              "name": "climbableRight",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "east-wall",
+          "type": "platform",
+          "x": 1760,
+          "y": 0,
+          "width": 32,
+          "height": 640,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "climbableLeft",
+              "type": "bool",
+              "value": false
+            },
+            {
+              "name": "climbableRight",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "player",
+          "type": "player-spawn",
+          "x": 128,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 14,
+          "name": "pip",
+          "type": "enemy-spawner",
+          "x": 1600,
+          "y": 640,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Buttons",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 11,
+          "name": "guide",
+          "type": "note",
+          "x": 72,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Sandbox: Pip\n\nThe switch spawns one Pip at the far east end. The note to its right names it.\n\nThe switch wakes up when Wave 1 starts. There are no normal waves."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 28
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "button-pip",
+          "type": "interaction",
+          "x": 256,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "trigger",
+              "type": "string",
+              "value": "use"
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "value": "Spawned: Pip"
+            },
+            {
+              "name": "targetSpawners",
+              "type": "string",
+              "value": "pip"
+            },
+            {
+              "name": "spawnCount",
+              "type": "int",
+              "value": 1
+            },
+            {
+              "name": "visualArt",
+              "type": "string",
+              "value": "light-switch-off"
+            },
+            {
+              "name": "visualScale",
+              "type": "float",
+              "value": 2.0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "label-pip",
+          "type": "note",
+          "x": 304,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true,
+          "properties": [
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Pip\n\nThe switch to the left spawns one Pip at the far end."
+            },
+            {
+              "name": "fontSize",
+              "type": "int",
+              "value": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Props",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "objects": [
+        {
+          "id": 15,
+          "name": "far-lamp",
+          "type": "core-art",
+          "x": 1408,
+          "y": 576,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "lamp"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "far-barrel",
+          "type": "core-art",
+          "x": 1664,
+          "y": 624,
+          "width": 64,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "art",
+              "type": "string",
+              "value": "barrel"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1057 @@
+{
+  "schemaVersion": 1,
+  "type": "enemy",
+  "id": "saintpeverell.pip:enemy/pip",
+  "displayName": "Pip",
+  "description": "A small animatronic teddy in a top hat that scurries at you on frantic little steps, glitching as it comes, and leaps.",
+  "stats": {
+    "healthMax": 8,
+    "healthIncreasePerWave": 0.5,
+    "bounty": 25,
+    "speedAcceleration": 8,
+    "speedMax": 2.0,
+    "traction": 0.2
+  },
+  "spawn": {
+    "inheritTemplateSpawners": false,
+    "joinCoreSpawners": [
+      { "enemy": "core:enemy/abby", "selectionWeight": 0.5, "minimumWave": 5 }
+    ]
+  },
+  "ai": {
+    "type": "groundChase",
+    "preferredRange": 1.0,
+    "reactionSeconds": 0.1
+  },
+  "behavior": {
+    "visionRange": 20,
+    "ignoreWave": false,
+    "modules": [
+      {
+        "type": "downedFinisher",
+        "triggerRange": 0.1,
+        "meterMax": 100,
+        "inputPower": 12,
+        "decayPerSecond": 3,
+        "cooldownSeconds": 4,
+        "phaseBlendSeconds": 0.2,
+        "startFreezeSeconds": 0.5,
+        "attachment": {
+          "target": "spine",
+          "offsetX": 0.0,
+          "offsetY": 0.268,
+          "rootX": -0.545,
+          "rootY": -0.6036,
+          "followRotation": 1.0,
+          "settleSeconds": 0.3,
+          "contacts": [
+            {
+              "bone": "hand-left",
+              "x": -0.045,
+              "y": 0.065
+            },
+            {
+              "bone": "hand-right",
+              "x": -0.045,
+              "y": -0.065
+            },
+            {
+              "bone": "foot-left",
+              "x": -0.1587,
+              "y": -0.1031,
+              "target": "hips"
+            },
+            {
+              "bone": "foot-right",
+              "x": -0.1046,
+              "y": -0.2543,
+              "target": "hips"
+            }
+          ],
+          "sortingOrders": {
+            "leg-right-upper": -9,
+            "leg-right-lower": -8,
+            "foot-right": -7,
+            "arm-right-upper": -6,
+            "arm-right-lower": -7,
+            "hand-right": -7,
+            "neck": 19,
+            "spine": 20,
+            "hips": 21,
+            "chest": 22,
+            "bow-tie": 23,
+            "ear-right": 24,
+            "head": 25,
+            "ear-left": 26,
+            "eyelid": 26,
+            "hat": 27,
+            "foot-left": 36,
+            "leg-left-upper": 37,
+            "leg-left-lower": 38,
+            "arm-left-upper": 23,
+            "arm-left-lower": 26
+          },
+          "playerSortingOrders": {
+            "arm-right-upper": 28,
+            "arm-right-lower": 29,
+            "hand-right": 24
+          }
+        },
+        "successOutcome": {
+          "enemyStunSeconds": 2.0
+        },
+        "failureOutcome": {
+          "healthDamage": 2
+        },
+        "statuses": {
+          "active": {
+            "title": "Clung to",
+            "description": "{enemy} is clinging on!"
+          },
+          "mating": {
+            "title": "Clung to",
+            "description": "{enemy} is clinging on."
+          },
+          "succumbed": {
+            "title": "Worn out",
+            "description": "You stopped struggling against {enemy}."
+          },
+          "infusion": {
+            "title": "Let go",
+            "description": "{enemy} finally let go."
+          }
+        },
+        "phases": [
+          {
+            "id": "hold",
+            "durationSeconds": 3.2,
+            "animation": "finisher-hold",
+            "playerAnimationRef": "saintpeverell.pip:player-animation/pip/finisher-hold",
+            "contacts": [],
+            "reactions": {
+              "thrust": {
+                "pleasure": 0.1,
+                "libido": 0.3,
+                "sounds": [
+                  "assets/audio/skinHit2.ogg",
+                  "assets/audio/skinHit4.ogg",
+                  "assets/audio/skinHit1.ogg",
+                  "assets/audio/skinHit5.ogg",
+                  "assets/audio/skinHit3.ogg"
+                ],
+                "volume": 0.5
+              },
+              "playerVoice": {
+                "chance": 0.4,
+                "sounds": [
+                  "assets/audio/ameangelofsin__dying-gasps_1.ogg",
+                  "assets/audio/Moan1.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_3.ogg",
+                  "assets/audio/Moan2.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_5.ogg",
+                  "assets/audio/Moan3.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_7.ogg",
+                  "assets/audio/Moan.ogg"
+                ],
+                "volume": 0.8
+              }
+            }
+          },
+          {
+            "id": "phase-2",
+            "durationSeconds": 5.25,
+            "animation": "finisher-phase-2",
+            "playerAnimationRef": "saintpeverell.pip:player-animation/pip/finisher-phase-2",
+            "contacts": [
+              {
+                "bone": "hand-left",
+                "target": "chest",
+                "x": -0.0913,
+                "y": 0.012799999999999964
+              },
+              {
+                "bone": "hand-right",
+                "target": "chest",
+                "x": 0.1008,
+                "y": 0.12949999999999998
+              },
+              {
+                "bone": "foot-left",
+                "target": "hips",
+                "x": 0.036,
+                "y": 0.018100000000000005
+              },
+              {
+                "bone": "foot-right",
+                "target": "hips",
+                "x": 0.1096,
+                "y": 0.084399999999999975
+              }
+            ],
+            "blendSeconds": 0.5,
+            "reactions": {
+              "thrust": {
+                "pleasure": 0.1,
+                "libido": 0.4,
+                "sounds": [
+                  "assets/audio/skinHit2.ogg",
+                  "assets/audio/skinHit4.ogg",
+                  "assets/audio/skinHit1.ogg",
+                  "assets/audio/skinHit5.ogg",
+                  "assets/audio/skinHit3.ogg"
+                ],
+                "volume": 0.5
+              },
+              "playerVoice": {
+                "chance": 0.5,
+                "sounds": [
+                  "assets/audio/ameangelofsin__dying-gasps_1.ogg",
+                  "assets/audio/Moan1.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_3.ogg",
+                  "assets/audio/Moan2.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_5.ogg",
+                  "assets/audio/Moan3.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_7.ogg",
+                  "assets/audio/Moan.ogg"
+                ],
+                "volume": 0.8
+              }
+            }
+          },
+          {
+            "id": "phase-3",
+            "durationSeconds": 2.0,
+            "animation": "finisher-phase-3",
+            "playerAnimationRef": "saintpeverell.pip:player-animation/pip/finisher-phase-3",
+            "contacts": [
+              {
+                "bone": "hand-left",
+                "target": "chest",
+                "x": -0.0913,
+                "y": 0.012799999999999964
+              }
+            ]
+          },
+          {
+            "id": "phase-4",
+            "durationSeconds": 3.0,
+            "animation": "finisher-phase-4",
+            "playerAnimationRef": "saintpeverell.pip:player-animation/pip/finisher-phase-4",
+            "contacts": [],
+            "reactions": {
+              "thrust": {
+                "pleasure": 0.3,
+                "libido": 0.2
+              }
+            }
+          },
+          {
+            "id": "phase-5",
+            "durationSeconds": 2.75,
+            "animation": "finisher-phase-5",
+            "playerAnimationRef": "saintpeverell.pip:player-animation/pip/finisher-phase-5",
+            "contacts": [],
+            "reactions": {
+              "thrust": {
+                "pleasure": 0.4,
+                "libido": 0.2,
+                "sounds": [
+                  "assets/audio/stretchShort1.ogg",
+                  "assets/audio/stretchShort2.ogg",
+                  "assets/audio/stretchShort3.ogg"
+                ],
+                "volume": 0.88
+              },
+              "layers": [
+                {
+                  "chance": 1.0,
+                  "sounds": [
+                    "assets/audio/skinHit1.ogg",
+                    "assets/audio/skinHit2.ogg",
+                    "assets/audio/skinHit3.ogg",
+                    "assets/audio/skinHit4.ogg",
+                    "assets/audio/skinHit5.ogg"
+                  ],
+                  "volume": 0.8
+                }
+              ],
+              "playerVoice": {
+                "chance": 1.0,
+                "sounds": [
+                  "assets/audio/ameangelofsin__dying-gasps_1.ogg",
+                  "assets/audio/Moan1.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_3.ogg",
+                  "assets/audio/Moan2.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_5.ogg",
+                  "assets/audio/Moan3.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_7.ogg",
+                  "assets/audio/Moan.ogg"
+                ],
+                "volume": 0.8
+              },
+              "camera": "enemyHips"
+            }
+          },
+          {
+            "id": "phase-6",
+            "durationSeconds": 4.25,
+            "animation": "finisher-phase-6",
+            "playerAnimationRef": "saintpeverell.pip:player-animation/pip/finisher-phase-6",
+            "contacts": [
+              {
+                "bone": "hand-left",
+                "target": "chest",
+                "x": -0.0913,
+                "y": 0.012799999999999964
+              },
+              {
+                "bone": "hand-right",
+                "target": "chest",
+                "x": 0.1008,
+                "y": 0.12949999999999998
+              },
+              {
+                "bone": "foot-left",
+                "target": "hips",
+                "x": 0.036,
+                "y": 0.018100000000000005
+              },
+              {
+                "bone": "foot-right",
+                "target": "hips",
+                "x": 0.1096,
+                "y": 0.084399999999999975
+              }
+            ],
+            "reactions": {
+              "thrust": {
+                "pleasure": 0.2,
+                "libido": 0.1,
+                "sounds": [
+                  "assets/audio/stretchShort1.ogg",
+                  "assets/audio/stretchShort2.ogg",
+                  "assets/audio/stretchShort3.ogg"
+                ],
+                "volume": 0.82
+              },
+              "layers": [
+                {
+                  "chance": 0.75,
+                  "sounds": [
+                    "assets/audio/skinHit1.ogg",
+                    "assets/audio/skinHit2.ogg",
+                    "assets/audio/skinHit3.ogg",
+                    "assets/audio/skinHit4.ogg",
+                    "assets/audio/skinHit5.ogg"
+                  ],
+                  "volume": 0.74
+                }
+              ],
+              "playerVoice": {
+                "chance": 0.75,
+                "sounds": [
+                  "assets/audio/ameangelofsin__dying-gasps_1.ogg",
+                  "assets/audio/Moan1.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_3.ogg",
+                  "assets/audio/Moan2.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_5.ogg",
+                  "assets/audio/Moan3.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_7.ogg",
+                  "assets/audio/Moan.ogg"
+                ],
+                "volume": 0.8
+              },
+              "enemyVoice": {
+                "chance": 0.2,
+                "sounds": [
+                  "assets/audio/316475__littlerobotsoundfactory__smallcreature1-05.ogg"
+                ],
+                "volume": 0.3
+              },
+              "camera": "enemyHips"
+            }
+          },
+          {
+            "id": "phase-7",
+            "durationSeconds": 7.0,
+            "animation": "finisher-phase-7",
+            "playerAnimationRef": "saintpeverell.pip:player-animation/pip/finisher-phase-7",
+            "struggle": false,
+            "contacts": [],
+            "reactions": {
+              "thrust": {
+                "pleasure": 0.24,
+                "libido": 0.1,
+                "sounds": [
+                  "assets/audio/stretchShort1.ogg",
+                  "assets/audio/stretchShort2.ogg",
+                  "assets/audio/stretchShort3.ogg"
+                ],
+                "volume": 0.83
+              },
+              "cumThrust": {
+                "pleasure": 0.8,
+                "libido": 0.2
+              },
+              "playerVoice": {
+                "chance": 1.0,
+                "sounds": [
+                  "assets/audio/ameangelofsin__dying-gasps_1.ogg",
+                  "assets/audio/Moan1.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_3.ogg",
+                  "assets/audio/Moan2.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_5.ogg",
+                  "assets/audio/Moan3.ogg",
+                  "assets/audio/ameangelofsin__dying-gasps_7.ogg",
+                  "assets/audio/Moan.ogg"
+                ],
+                "volume": 0.8
+              },
+              "enemyVoice": {
+                "chance": 0.2,
+                "sounds": [
+                  "assets/audio/316475__littlerobotsoundfactory__smallcreature1-05.ogg"
+                ],
+                "volume": 0.3
+              },
+              "camera": "enemyHips"
+            }
+          },
+          {
+            "id": "release",
+            "durationSeconds": 4.45,
+            "animation": "finisher-release",
+            "playerAnimationRef": "saintpeverell.pip:player-animation/pip/finisher-release",
+            "struggle": false,
+            "attached": false
+          }
+        ]
+      }
+    ]
+  },
+  "attacks": [
+    {
+      "id": "leap",
+      "type": "grab",
+      "animation": "catch",
+      "missAnimation": "leap",
+      "chance": 1,
+      "damage": 0,
+      "cooldownSeconds": 3,
+      "initiateRange": 2.6,
+      "hitRange": 1.1,
+      "durationSeconds": 1.5,
+      "movesDuringAttack": false
+    }
+  ],
+  "animation": {
+    "blendSeconds": 0.15
+  },
+  "animationRefs": {
+    "catch": "saintpeverell.pip:enemy-animation/pip/catch",
+    "finisher-hold": "saintpeverell.pip:enemy-animation/pip/finisher-hold",
+    "finisher-phase-2": "saintpeverell.pip:enemy-animation/pip/finisher-phase-2",
+    "finisher-phase-3": "saintpeverell.pip:enemy-animation/pip/finisher-phase-3",
+    "finisher-phase-4": "saintpeverell.pip:enemy-animation/pip/finisher-phase-4",
+    "finisher-phase-5": "saintpeverell.pip:enemy-animation/pip/finisher-phase-5",
+    "finisher-phase-6": "saintpeverell.pip:enemy-animation/pip/finisher-phase-6",
+    "finisher-phase-7": "saintpeverell.pip:enemy-animation/pip/finisher-phase-7",
+    "finisher-release": "saintpeverell.pip:enemy-animation/pip/finisher-release",
+    "idle": "saintpeverell.pip:enemy-animation/pip/idle",
+    "leap": "saintpeverell.pip:enemy-animation/pip/leap",
+    "move": "saintpeverell.pip:enemy-animation/pip/move"
+  },
+  "visual": {
+    "type": "originalSkeletonAtlas",
+    "atlas": "assets/enemies/pip/atlas.png",
+    "pixelsPerUnit": 134.195038,
+    "bodyWidth": 0.33983,
+    "bodyHeight": 2.1275,
+    "bodyOffsetX": 0.0,
+    "bodyOffsetY": 0.18814,
+    "bones": [
+      {
+        "id": "hips",
+        "region": "hips",
+        "x": 0.0,
+        "y": 0.0,
+        "rotation": 0.0,
+        "pivotX": 0.5678,
+        "pivotY": 0.2727,
+        "sortingOrder": 6
+      },
+      {
+        "id": "penis",
+        "parent": "hips",
+        "region": "empty",
+        "x": 0.05439,
+        "y": -0.02162,
+        "rotation": 0.0,
+        "pivotX": 0.2144,
+        "pivotY": 0.4925,
+        "sortingOrder": 14
+      },
+      {
+        "id": "penis-mid",
+        "parent": "penis",
+        "region": "empty",
+        "x": 0.07084,
+        "y": 0.07303,
+        "rotation": 0.0,
+        "pivotX": 0.0136,
+        "pivotY": 0.3667,
+        "sortingOrder": 15
+      },
+      {
+        "id": "penis-tip",
+        "parent": "penis-mid",
+        "region": "empty",
+        "x": 0.15203,
+        "y": 0.04842,
+        "rotation": 0.0,
+        "pivotX": 0.0184,
+        "pivotY": 0.3714,
+        "sortingOrder": 16
+      },
+      {
+        "id": "balls",
+        "parent": "hips",
+        "region": "sheath",
+        "x": 0.05439,
+        "y": -0.02162,
+        "rotation": 0.0,
+        "pivotX": 0.5943,
+        "pivotY": 0.607,
+        "sortingOrder": 13
+      },
+      {
+        "id": "spine",
+        "parent": "hips",
+        "region": "belly",
+        "x": -0.00747,
+        "y": 0.14536,
+        "rotation": 0.0,
+        "pivotX": 0.4474,
+        "pivotY": 0.2632,
+        "sortingOrder": 5
+      },
+      {
+        "id": "chest",
+        "parent": "spine",
+        "region": "chest",
+        "x": 0.00747,
+        "y": 0.19378,
+        "rotation": 0.0,
+        "pivotX": 0.5,
+        "pivotY": 0.051,
+        "sortingOrder": 7
+      },
+      {
+        "id": "bow-tie",
+        "parent": "chest",
+        "region": "bow-tie",
+        "x": 0.04473,
+        "y": 0.35765,
+        "rotation": 0.0,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "sortingOrder": 8
+      },
+      {
+        "id": "neck",
+        "parent": "chest",
+        "region": "neck",
+        "x": -0.03726,
+        "y": 0.31671,
+        "rotation": 0.0,
+        "pivotX": 0.5,
+        "pivotY": 0.0741,
+        "sortingOrder": 4
+      },
+      {
+        "id": "head",
+        "parent": "neck",
+        "region": "head",
+        "x": 0.00368,
+        "y": 0.13409,
+        "rotation": 0.0,
+        "pivotX": 0.2778,
+        "pivotY": 0.0,
+        "sortingOrder": 10
+      },
+      {
+        "id": "ear-left",
+        "parent": "head",
+        "region": "ear",
+        "x": -0.09315,
+        "y": 0.33166,
+        "rotation": 0.0,
+        "pivotX": 0.75,
+        "pivotY": 0.1,
+        "sortingOrder": 11
+      },
+      {
+        "id": "ear-right",
+        "parent": "head",
+        "region": "ear-far",
+        "x": 0.1863,
+        "y": 0.36892,
+        "rotation": 0.0,
+        "pivotX": 0.7321,
+        "pivotY": 0.1333,
+        "sortingOrder": 9
+      },
+      {
+        "id": "eyelid",
+        "parent": "head",
+        "region": "eyelid-open",
+        "x": 0.09315,
+        "y": 0.20493,
+        "rotation": 0.0,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "sortingOrder": 11
+      },
+      {
+        "id": "hat",
+        "parent": "head",
+        "region": "top-hat",
+        "x": 0.00368,
+        "y": 0.44344,
+        "rotation": 0.0,
+        "pivotX": 0.5,
+        "pivotY": 0.0882,
+        "sortingOrder": 12
+      },
+      {
+        "id": "arm-right-upper",
+        "parent": "chest",
+        "region": "arm-upper-far",
+        "x": 0.14156,
+        "y": 0.31303,
+        "rotation": 20.21,
+        "pivotX": 0.7656,
+        "pivotY": 0.8913,
+        "sortingOrder": 1
+      },
+      {
+        "id": "arm-right-lower",
+        "parent": "arm-right-upper",
+        "region": "arm-lower-far",
+        "x": -0.07084,
+        "y": -0.26829,
+        "rotation": -8.43,
+        "pivotX": 0.569,
+        "pivotY": 0.9111,
+        "sortingOrder": 2
+      },
+      {
+        "id": "hand-right",
+        "parent": "arm-right-lower",
+        "region": "mitten-far",
+        "x": -0.00747,
+        "y": -0.27197,
+        "rotation": -11.79,
+        "pivotX": 0.4211,
+        "pivotY": 0.8537,
+        "sortingOrder": 3
+      },
+      {
+        "id": "leg-right-upper",
+        "parent": "hips",
+        "region": "leg-upper-far",
+        "x": 0.11178,
+        "y": -0.01863,
+        "rotation": 12.38,
+        "pivotX": 0.4714,
+        "pivotY": 0.8929,
+        "sortingOrder": 1
+      },
+      {
+        "id": "leg-right-lower",
+        "parent": "leg-right-upper",
+        "region": "leg-lower-far",
+        "x": -0.00368,
+        "y": -0.34281,
+        "rotation": -18.31,
+        "pivotX": 0.5833,
+        "pivotY": 0.8962,
+        "sortingOrder": 2
+      },
+      {
+        "id": "foot-right",
+        "parent": "leg-right-lower",
+        "region": "foot-far",
+        "x": -0.02231,
+        "y": -0.31671,
+        "rotation": 5.93,
+        "pivotX": 0.2963,
+        "pivotY": 0.8,
+        "sortingOrder": 3
+      },
+      {
+        "id": "leg-left-upper",
+        "parent": "hips",
+        "region": "leg-upper",
+        "x": -0.11178,
+        "y": -0.01863,
+        "rotation": -6.43,
+        "pivotX": 0.4865,
+        "pivotY": 0.9018,
+        "sortingOrder": 18
+      },
+      {
+        "id": "leg-left-lower",
+        "parent": "leg-left-upper",
+        "region": "leg-lower",
+        "x": -0.02231,
+        "y": -0.34649,
+        "rotation": -6.28,
+        "pivotX": 0.5645,
+        "pivotY": 0.875,
+        "sortingOrder": 19
+      },
+      {
+        "id": "foot-left",
+        "parent": "leg-left-lower",
+        "region": "foot-front",
+        "x": -0.01863,
+        "y": -0.24966,
+        "rotation": 12.71,
+        "pivotX": 0.5238,
+        "pivotY": 0.9024,
+        "sortingOrder": 17
+      },
+      {
+        "id": "arm-left-upper",
+        "parent": "chest",
+        "region": "arm-upper",
+        "x": -0.20125,
+        "y": 0.32787,
+        "rotation": 6.64,
+        "pivotX": 0.7419,
+        "pivotY": 0.883,
+        "sortingOrder": 20
+      },
+      {
+        "id": "arm-left-lower",
+        "parent": "arm-left-upper",
+        "region": "arm-lower",
+        "x": -0.06704,
+        "y": -0.27197,
+        "rotation": -12.47,
+        "pivotX": 0.5345,
+        "pivotY": 0.92,
+        "sortingOrder": 21
+      },
+      {
+        "id": "hand-left",
+        "parent": "arm-left-lower",
+        "region": "mitten",
+        "x": -0.00747,
+        "y": -0.30924,
+        "rotation": 5.83,
+        "pivotX": 0.4211,
+        "pivotY": 0.8537,
+        "sortingOrder": 22
+      }
+    ],
+    "hitZones": [
+      {
+        "bone": "head",
+        "shape": "circle",
+        "radius": 0.20792,
+        "offsetX": 0.0907,
+        "offsetY": 0.2009,
+        "damageMultiplier": "critical"
+      },
+      {
+        "bone": "chest",
+        "shape": "box",
+        "width": 0.36742,
+        "height": 0.31038,
+        "offsetX": 0.0,
+        "offsetY": 0.1426,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "spine",
+        "shape": "box",
+        "width": 0.36098,
+        "height": 0.24069,
+        "offsetX": 0.0194,
+        "offsetY": 0.0583,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "hips",
+        "shape": "box",
+        "width": 0.37375,
+        "height": 0.20907,
+        "offsetX": -0.0259,
+        "offsetY": 0.0486,
+        "damageMultiplier": "normal"
+      },
+      {
+        "bone": "leg-left-upper",
+        "shape": "box",
+        "width": 0.23437,
+        "height": 0.35466,
+        "offsetX": 0.0032,
+        "offsetY": -0.1458,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "leg-left-lower",
+        "shape": "box",
+        "width": 0.1963,
+        "height": 0.27864,
+        "offsetX": -0.013,
+        "offsetY": -0.1069,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "leg-right-upper",
+        "shape": "box",
+        "width": 0.22172,
+        "height": 0.35466,
+        "offsetX": 0.0065,
+        "offsetY": -0.1426,
+        "damageMultiplier": "low"
+      },
+      {
+        "bone": "leg-right-lower",
+        "shape": "box",
+        "width": 0.18998,
+        "height": 0.33569,
+        "offsetX": -0.0162,
+        "offsetY": -0.1361,
+        "damageMultiplier": "low"
+      }
+    ],
+    "regions": {
+      "arm-lower": {
+        "x": 130,
+        "y": 344,
+        "width": 29,
+        "height": 50
+      },
+      "arm-lower-far": {
+        "x": 34,
+        "y": 295,
+        "width": 29,
+        "height": 45
+      },
+      "arm-upper": {
+        "x": 219,
+        "y": 347,
+        "width": 31,
+        "height": 47
+      },
+      "arm-upper-far": {
+        "x": 1,
+        "y": 294,
+        "width": 32,
+        "height": 46
+      },
+      "balls": {
+        "x": 96,
+        "y": 297,
+        "width": 35,
+        "height": 43
+      },
+      "belly": {
+        "x": 79,
+        "y": 255,
+        "width": 57,
+        "height": 38
+      },
+      "bonebone": {
+        "x": 139,
+        "y": 458,
+        "width": 97,
+        "height": 53
+      },
+      "bow-tie": {
+        "x": 46,
+        "y": 197,
+        "width": 31,
+        "height": 19
+      },
+      "chest": {
+        "x": 160,
+        "y": 345,
+        "width": 58,
+        "height": 49
+      },
+      "cockbone-2-base": {
+        "x": 1,
+        "y": 395,
+        "width": 97,
+        "height": 53
+      },
+      "cockbone-2-mid": {
+        "x": 230,
+        "y": 224,
+        "width": 22,
+        "height": 27
+      },
+      "cockbone-2-tip": {
+        "x": 152,
+        "y": 223,
+        "width": 38,
+        "height": 28
+      },
+      "cockbone-base": {
+        "x": 99,
+        "y": 395,
+        "width": 97,
+        "height": 53
+      },
+      "cockbone-mid": {
+        "x": 1,
+        "y": 189,
+        "width": 22,
+        "height": 27
+      },
+      "cockbone-tip": {
+        "x": 191,
+        "y": 223,
+        "width": 38,
+        "height": 28
+      },
+      "dogbone": {
+        "x": 1,
+        "y": 341,
+        "width": 97,
+        "height": 53
+      },
+      "ear": {
+        "x": 94,
+        "y": 221,
+        "width": 28,
+        "height": 30
+      },
+      "ear-far": {
+        "x": 123,
+        "y": 221,
+        "width": 28,
+        "height": 30
+      },
+      "eyelid-half": {
+        "x": 78,
+        "y": 207,
+        "width": 25,
+        "height": 9
+      },
+      "eyelid-open": {
+        "x": 104,
+        "y": 207,
+        "width": 27,
+        "height": 9
+      },
+      "eyelid-shut": {
+        "x": 132,
+        "y": 207,
+        "width": 24,
+        "height": 9
+      },
+      "foot": {
+        "x": 137,
+        "y": 258,
+        "width": 54,
+        "height": 35
+      },
+      "foot-far": {
+        "x": 192,
+        "y": 258,
+        "width": 54,
+        "height": 35
+      },
+      "foot-front": {
+        "x": 168,
+        "y": 299,
+        "width": 42,
+        "height": 41
+      },
+      "head": {
+        "x": 1,
+        "y": 449,
+        "width": 63,
+        "height": 62
+      },
+      "hips": {
+        "x": 34,
+        "y": 218,
+        "width": 59,
+        "height": 33
+      },
+      "leg-lower": {
+        "x": 64,
+        "y": 296,
+        "width": 31,
+        "height": 44
+      },
+      "leg-lower-far": {
+        "x": 99,
+        "y": 341,
+        "width": 30,
+        "height": 53
+      },
+      "leg-upper": {
+        "x": 65,
+        "y": 455,
+        "width": 37,
+        "height": 56
+      },
+      "leg-upper-far": {
+        "x": 103,
+        "y": 455,
+        "width": 35,
+        "height": 56
+      },
+      "mitten": {
+        "x": 211,
+        "y": 299,
+        "width": 38,
+        "height": 41
+      },
+      "mitten-far": {
+        "x": 1,
+        "y": 252,
+        "width": 38,
+        "height": 41
+      },
+      "mitten-grip": {
+        "x": 40,
+        "y": 252,
+        "width": 38,
+        "height": 41
+      },
+      "neck": {
+        "x": 24,
+        "y": 189,
+        "width": 21,
+        "height": 27
+      },
+      "sheath": {
+        "x": 132,
+        "y": 297,
+        "width": 35,
+        "height": 43
+      },
+      "top-hat": {
+        "x": 1,
+        "y": 217,
+        "width": 32,
+        "height": 34
+      },
+      "empty": {
+        "x": 255,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  }
+}
