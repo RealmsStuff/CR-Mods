@@ -1,13 +1,14 @@
 # China Furry Mod
 
-This is a data-only conversion of ZHQ's legacy China Furry Mod
+This is a data-only conversion of Zhongduan's legacy China Furry Mod
 `sharedassets0.assets` replacement. It retains the usable character, clothing,
 environment, prop, drawing, and completion-scene artwork as Mod API asset
 patches; it does not redistribute the original Unity data archive.
 
-The creator is credited as ZHQ. The catalog maintainer confirmed permission to
-redistribute this converted mod on 2026-10-13; see `THIRD_PARTY.md` for the
-publication record and scope.
+The original creator is credited as Zhongduan. Earlier catalog versions
+incorrectly credited ZHQ; that attribution was corrected on 2026-11-20. The
+catalog maintainer confirmed permission to redistribute this converted mod on
+2026-10-13; see `THIRD_PARTY.md` for the publication record and scope.
 
 Install the packaged `.capmod` through the in-game Mods screen. The conversion
 is intentionally incompatible with other broad player or visual overhaul packs
